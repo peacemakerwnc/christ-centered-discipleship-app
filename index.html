@@ -1,0 +1,2281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Peacemakers — a daily Catholic discipleship companion for fathers. Scripture, prayer, and practical formation for each day of the liturgical year."
+    />
+    <title>Peacemakers — A Catholic Father's Daily Companion</title>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Peacemakers — A Catholic Father's Daily Companion" />
+    <meta
+      property="og:description"
+      content="A daily Catholic discipleship companion for fathers. Scripture, prayer, and formation aligned with the liturgical year."
+    />
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="icon" type="image/png" href="./assets/icon-192.png" />
+    <meta name="theme-color" content="#2c1a0e" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Peacemakers" />
+    <link rel="apple-touch-icon" href="./assets/icon-192.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      window.__PMK_DATA_LOAD_FAILED__ = false;
+    </script>
+    <script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+    <script src="./daily-content-2026.js" onerror="window.__PMK_DATA_LOAD_FAILED__ = true;"></script>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --parchment: #f5f0e8;
+        --surface-1: #ede6db;
+        --surface-2: #e4dcd0;
+        --leather: #2c1a0e;
+        --leather-mid: #3d2618;
+        --oxblood: #8b1a1a;
+        --gold: #a0822a;
+        --ink: #1e1611;
+        --ink-muted: #6b5e50;
+        --ink-faint: #b0a090;
+        --rule: #8b1a1a;
+        --focus-ring: #a0822a;
+        --font-display: "Cormorant Garamond", "Palatino Linotype", Georgia, serif;
+        --font-body: "EB Garamond", "Palatino Linotype", Georgia, serif;
+        --text-xs: 0.75rem;
+        --text-sm: 0.875rem;
+        --text-base: 1.125rem;
+        --text-lg: 1.35rem;
+        --text-xl: 1.65rem;
+        --leading-body: 1.78;
+        --leading-head: 1.38;
+        --section-gap: 2.75rem;
+        --section-gap-sm: 2.15rem;
+        --radius-subtle: 3px;
+        --header-h: auto;
+        --touch: 44px;
+        --color-accent: #8b1a1a;
+        --color-bg: var(--bg);
+        --space-2: 0.5rem;
+        --space-8: 2rem;
+      }
+
+      .theme-light {
+        color-scheme: light;
+        --bg: var(--parchment);
+        --surface: var(--surface-1);
+        --text: var(--ink);
+        --muted: var(--ink-muted);
+        --faint: var(--ink-faint);
+        --header-fg: #f5f0e8;
+        --header-fg-muted: #c9b8a8;
+        --input-bg: #faf7f2;
+        --input-border: #c4b8a8;
+      }
+
+      .theme-dark {
+        color-scheme: dark;
+        --bg: #12100e;
+        --surface: #1a1714;
+        --text: #e8dfd0;
+        --muted: #a89888;
+        --faint: #6d6258;
+        --header-fg: #e8dfd0;
+        --header-fg-muted: #9a8b7c;
+        --parchment: #12100e;
+        --surface-1: #1a1714;
+        --surface-2: #221e1a;
+        --leather: #0d0a08;
+        --leather-mid: #1a1512;
+        --oxblood: #c04040;
+        --gold: #c9a85a;
+        --ink: #e8dfd0;
+        --rule: #c04040;
+        --input-bg: #1a1714;
+        --input-border: #3d3630;
+      }
+
+      @media (prefers-color-scheme: light) {
+        html:not(.theme-dark):not(.theme-light) {
+          color-scheme: light;
+          --bg: var(--parchment);
+          --surface: var(--surface-1);
+          --text: var(--ink);
+          --muted: var(--ink-muted);
+          --faint: var(--ink-faint);
+          --header-fg: #f5f0e8;
+          --header-fg-muted: #c9b8a8;
+          --input-bg: #faf7f2;
+          --input-border: #c4b8a8;
+        }
+      }
+
+      @media (prefers-color-scheme: dark) {
+        html:not(.theme-light):not(.theme-dark) {
+          color-scheme: dark;
+          --bg: #12100e;
+          --surface: #1a1714;
+          --text: #e8dfd0;
+          --muted: #a89888;
+          --faint: #6d6258;
+          --header-fg: #e8dfd0;
+          --header-fg-muted: #9a8b7c;
+          --parchment: #12100e;
+          --surface-1: #1a1714;
+          --surface-2: #221e1a;
+          --leather: #0d0a08;
+          --leather-mid: #1a1512;
+          --oxblood: #c04040;
+          --gold: #c9a85a;
+          --ink: #e8dfd0;
+          --rule: #c04040;
+          --input-bg: #1a1714;
+          --input-border: #3d3630;
+        }
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-padding-top: 10.5rem;
+      }
+
+      body {
+        margin: 0;
+        font-family: var(--font-body);
+        font-size: max(1.125rem, 18px);
+        line-height: var(--leading-body);
+        background-color: var(--bg);
+        background-image: linear-gradient(
+          180deg,
+          rgba(255, 252, 246, 0.55) 0%,
+          transparent 28%,
+          transparent 72%,
+          rgba(44, 26, 14, 0.04) 100%
+        );
+        color: var(--text);
+        min-height: 100vh;
+        position: relative;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      html.theme-dark body {
+        background-image: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0.03) 0%,
+          transparent 35%,
+          transparent 70%,
+          rgba(0, 0, 0, 0.35) 100%
+        );
+      }
+
+      @media (prefers-color-scheme: dark) {
+        html:not(.theme-light) body {
+          background-image: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.03) 0%,
+            transparent 35%,
+            transparent 70%,
+            rgba(0, 0, 0, 0.35) 100%
+          );
+        }
+      }
+
+      .grain-defs {
+        position: absolute;
+        width: 0;
+        height: 0;
+        overflow: hidden;
+      }
+
+      body::after {
+        content: "";
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        z-index: 0;
+        opacity: 0.038;
+        filter: url(#pmk-paper-grain);
+      }
+
+      .shell {
+        position: relative;
+        z-index: 1;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+
+      /* ——— Sticky leather header ——— */
+      .masthead {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        background: var(--leather);
+        color: var(--header-fg);
+        border-bottom: 2px solid var(--oxblood);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06), 0 3px 14px rgba(0, 0, 0, 0.28);
+        overflow-x: clip;
+      }
+
+      .masthead-inner {
+        max-width: 680px;
+        margin: 0 auto;
+        padding: 0.5rem 1rem 0.65rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+      }
+
+      .masthead-identity {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.65rem;
+        min-height: 56px;
+      }
+
+      .identity-left {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.55rem;
+        min-width: 0;
+        flex: 1 1 auto;
+      }
+
+      .pmk-logo-mark {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 1.5rem;
+        color: inherit;
+        opacity: 0.92;
+        filter: drop-shadow(0 1px 0 rgba(0, 0, 0, 0.35));
+      }
+
+      @media (min-width: 480px) {
+        .pmk-logo-mark {
+          width: 1.65rem;
+          height: 1.65rem;
+        }
+      }
+
+      .brand-name-title {
+        font-family: var(--font-display);
+        font-weight: 700;
+        font-size: clamp(1rem, 3.2vw, var(--text-xl));
+        line-height: 1.15;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--header-fg);
+        margin: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-shadow:
+          0 1px 0 rgba(0, 0, 0, 0.42),
+          0 -1px 0 rgba(255, 255, 255, 0.07);
+      }
+
+      .masthead-rule {
+        border: 0;
+        border-top: 1px solid var(--oxblood);
+        margin: 0.4rem 0 0.5rem;
+        padding: 0;
+        opacity: 0.88;
+        width: 100%;
+      }
+
+      .masthead-context {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-start;
+        gap: var(--space-2) 0.4rem;
+        min-width: 0;
+        font-family: var(--font-body);
+        font-size: var(--text-xs);
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--header-fg-muted);
+        line-height: 1.35;
+        row-gap: 0.35rem;
+      }
+
+      @media (min-width: 640px) {
+        .masthead-context {
+          font-size: var(--text-sm);
+          letter-spacing: 0.1em;
+        }
+      }
+
+      .context-item {
+        flex-shrink: 1;
+        white-space: nowrap;
+        min-width: 0;
+      }
+
+      .context-tagline {
+        max-width: none;
+      }
+
+      .context-date {
+        color: var(--header-fg);
+        font-weight: 500;
+        flex: 1 1 auto;
+        min-width: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .context-sep {
+        flex-shrink: 0;
+        opacity: 0.55;
+        user-select: none;
+      }
+
+      .context-theme {
+        min-width: 0;
+        flex-shrink: 1;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        text-align: left;
+      }
+
+      .context-theme strong {
+        color: var(--header-fg);
+        font-weight: 500;
+      }
+
+      @media (max-width: 719px) {
+        .context-tagline,
+        .context-sep-after-tagline {
+          display: none;
+        }
+      }
+
+      @media (max-width: 479px) {
+        .context-theme,
+        .context-sep-before-theme {
+          display: none;
+        }
+
+        .masthead-context {
+          justify-content: flex-start;
+          font-size: var(--text-xs);
+        }
+
+        .context-date {
+          color: var(--header-fg-muted);
+          font-weight: 400;
+          flex: 1 1 100%;
+          margin-right: 0;
+        }
+
+        .season-badge {
+          flex-basis: 100%;
+          margin-left: 0;
+          margin-top: 0.15rem;
+          justify-content: flex-start;
+        }
+
+        .context-sep:not(.context-sep-after-tagline) {
+          flex-shrink: 0;
+        }
+      }
+
+      .season-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35rem;
+        font-family: var(--font-body);
+        font-size: var(--text-xs);
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--gold);
+        border: 1px solid rgba(160, 130, 42, 0.55);
+        padding: 0.2rem 0.5rem;
+        border-radius: var(--radius-subtle);
+        background: rgba(0, 0, 0, 0.2);
+        flex-shrink: 0;
+        flex-grow: 0;
+        white-space: nowrap;
+        margin-left: var(--space-2);
+      }
+
+      .season-badge .lit-dot {
+        width: 6px;
+        height: 6px;
+        border-radius: 1px;
+        flex-shrink: 0;
+      }
+
+      @media (max-width: 479px) {
+        .season-badge {
+          padding: 0.15rem 0.4rem;
+          font-size: 0.65rem;
+          letter-spacing: 0.1em;
+          gap: 0.28rem;
+        }
+
+        .season-badge .lit-dot {
+          width: 5px;
+          height: 5px;
+        }
+      }
+
+      .season-badge .lit-dot.lit-white {
+        background: #e8e0d5;
+        box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.3);
+      }
+      .season-badge .lit-dot.lit-purple {
+        background: #6b4c7a;
+      }
+      .season-badge .lit-dot.lit-red {
+        background: #9a2a2a;
+      }
+      .season-badge .lit-dot.lit-green {
+        background: #3d6b4a;
+      }
+
+      .nav-arrows {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 0.35rem;
+        flex-shrink: 0;
+      }
+
+      .icon-btn {
+        width: var(--touch);
+        height: var(--touch);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid rgba(245, 240, 232, 0.25);
+        background: rgba(0, 0, 0, 0.15);
+        color: var(--header-fg);
+        border-radius: var(--radius-subtle);
+        cursor: pointer;
+        font-family: var(--font-display);
+        font-size: 1.25rem;
+        line-height: 1;
+        padding: 0;
+        transition: background 0.15s ease, border-color 0.15s ease;
+      }
+
+      .icon-btn svg {
+        width: 22px;
+        height: 22px;
+        stroke-width: 2;
+      }
+
+      .icon-btn:hover {
+        background: rgba(0, 0, 0, 0.28);
+        border-color: rgba(192, 64, 64, 0.5);
+      }
+
+      .icon-btn:focus-visible {
+        outline: 2px solid var(--gold);
+        outline-offset: 2px;
+      }
+
+      /* ——— Page scroll (parchment) ——— */
+      .page {
+        flex: 1;
+        max-width: 680px;
+        margin: 0 auto;
+        padding: 1.65rem 1.1rem 0;
+        width: 100%;
+        position: relative;
+      }
+
+      @media (min-width: 400px) {
+        .page {
+          padding: 2rem 1.25rem 0;
+        }
+      }
+
+      .page-inner {
+        transition: none;
+      }
+
+      @media (prefers-reduced-motion: no-preference) {
+        .page-inner {
+          transition: opacity 0.22s ease, transform 0.24s ease;
+        }
+        .page-inner.is-fading {
+          opacity: 0.35;
+          transform: translateY(4px);
+        }
+      }
+
+      .data-banner {
+        font-family: var(--font-body);
+        font-size: var(--text-sm);
+        padding: 0.85rem 1rem;
+        margin-bottom: 1.5rem;
+        background: var(--surface);
+        border: 1px solid var(--oxblood);
+        border-radius: var(--radius-subtle);
+        color: var(--text);
+      }
+
+      .data-banner strong {
+        display: block;
+        font-family: var(--font-display);
+        font-size: var(--text-base);
+        color: var(--oxblood);
+        margin-bottom: 0.35rem;
+      }
+
+      .data-banner[hidden] {
+        display: none !important;
+      }
+
+      article {
+        padding-bottom: 2.5rem;
+      }
+
+      /* Section pattern */
+      .section {
+        margin-bottom: var(--section-gap-sm);
+      }
+
+      article > .section:first-of-type {
+        margin-bottom: var(--section-gap);
+      }
+
+      .section:has(#field-prayer) {
+        margin-top: 0.35rem;
+        margin-bottom: calc(var(--section-gap) + 0.35rem);
+      }
+
+      .section:has(#examen-prompts) {
+        margin-bottom: 0;
+        padding-top: 0.5rem;
+        padding-bottom: 2.75rem;
+        border-top: 1px solid rgba(139, 26, 26, 0.2);
+      }
+
+      .theme-dark .section:has(#examen-prompts) {
+        border-top-color: rgba(192, 64, 64, 0.22);
+      }
+
+      .section-label {
+        font-family: var(--font-body);
+        font-size: var(--text-sm);
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--muted);
+        margin: 0 0 0.55rem;
+        padding-bottom: 0.45rem;
+        border-bottom: 1px solid var(--rule);
+        max-width: 12rem;
+      }
+
+      .section:has(#field-reflection) .section-label,
+      .section:has(#field-father-note) .section-label {
+        opacity: 0.92;
+      }
+
+      .section:has(#field-challenge) .section-label,
+      .section:has(#field-least) .section-label {
+        letter-spacing: 0.18em;
+      }
+
+      .section-label-wrapped {
+        max-width: none;
+        line-height: var(--leading-head);
+      }
+
+      .section-cite {
+        display: block;
+        margin-top: 0.35rem;
+        font-family: var(--font-body);
+        font-size: var(--text-xs);
+        letter-spacing: 0.12em;
+        text-transform: none;
+        font-style: italic;
+        color: var(--muted);
+        border-bottom: none;
+        padding-bottom: 0;
+      }
+
+      .section-label.scripture-ref {
+        font-family: var(--font-display);
+        font-weight: 600;
+        font-variant: small-caps;
+        letter-spacing: 0.14em;
+        color: var(--ink);
+        border-bottom-color: var(--oxblood);
+        max-width: none;
+      }
+
+      .scripture-ref-line {
+        font-family: var(--font-display);
+        font-variant: small-caps;
+        font-weight: 600;
+        font-size: var(--text-base);
+        letter-spacing: 0.12em;
+        color: var(--muted);
+        margin: 0 0 0.85rem;
+        line-height: var(--leading-head);
+      }
+
+      .scripture-ref-line.secondary {
+        font-size: var(--text-sm);
+        margin-top: 0.5rem;
+      }
+
+      .scripture-of-day {
+        position: relative;
+        padding-left: 0;
+        border-left: none;
+      }
+
+      .scripture-of-day.has-ribbon {
+        padding-left: 1.05rem;
+        border-left: 3px solid var(--oxblood);
+        margin-left: -0.05rem;
+      }
+
+      .scripture-block {
+        position: relative;
+      }
+
+      .divider-ox {
+        border: 0;
+        height: 1px;
+        margin: 1.65rem 0;
+        background: linear-gradient(
+          90deg,
+          transparent 0%,
+          rgba(139, 26, 26, 0.5) 20%,
+          rgba(139, 26, 26, 0.5) 80%,
+          transparent 100%
+        );
+        opacity: 1;
+      }
+
+      .theme-dark .divider-ox {
+        background: linear-gradient(
+          90deg,
+          transparent 0%,
+          rgba(192, 64, 64, 0.45) 20%,
+          rgba(192, 64, 64, 0.45) 80%,
+          transparent 100%
+        );
+      }
+
+      .scripture-text {
+        font-family: var(--font-display);
+        font-size: clamp(1.2rem, 4.6vw, 1.72rem);
+        font-style: italic;
+        font-weight: 400;
+        line-height: 1.42;
+        color: var(--ink);
+        margin: 0 0 1.35rem;
+        text-align: left;
+        letter-spacing: 0.01em;
+      }
+
+      blockquote.scripture-text {
+        padding: 0;
+        margin: 0 0 1.25rem;
+        border: none;
+      }
+
+      blockquote.scripture-text p {
+        margin: 0;
+      }
+
+      .scripture-text.drop-cap::first-letter,
+      blockquote.scripture-text.drop-cap p::first-letter {
+        font-family: var(--font-display);
+        font-size: 3.15em;
+        line-height: 0.82;
+        float: left;
+        padding: 0.04em 0.12em 0 0;
+        font-weight: 600;
+        font-style: normal;
+        color: var(--oxblood);
+      }
+
+      .scripture-text::after,
+      blockquote.scripture-text::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      .scripture-text.scripture-secondary {
+        font-size: var(--text-lg);
+      }
+
+      .scripture-text.scripture-secondary.drop-cap::first-letter,
+      blockquote.scripture-text.scripture-secondary.drop-cap p::first-letter {
+        font-size: 2.5em;
+      }
+
+      .connection-note {
+        font-family: var(--font-body);
+        font-size: var(--text-sm);
+        color: var(--muted);
+        font-style: italic;
+        margin: 0 0 1.25rem;
+        padding-top: 0.75rem;
+        border-top: 1px solid rgba(139, 26, 26, 0.35);
+      }
+
+      .theme-dark .connection-note {
+        border-top-color: rgba(192, 64, 64, 0.35);
+      }
+
+      .body-text {
+        font-family: var(--font-body);
+        font-size: var(--text-base);
+        line-height: var(--leading-body);
+        color: var(--text);
+        margin: 0;
+        max-width: 38rem;
+      }
+
+      .body-text.pull {
+        font-size: calc(var(--text-base) + 0.035rem);
+        color: var(--ink);
+        max-width: 36rem;
+      }
+
+      .challenge-type-pill {
+        font-family: var(--font-body);
+        font-size: var(--text-xs);
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: var(--oxblood);
+        margin: 0 0 0.55rem;
+        font-weight: 600;
+      }
+
+      .theme-dark .challenge-type-pill {
+        color: var(--oxblood);
+      }
+
+      .prayer-block {
+        font-family: var(--font-body);
+        font-size: calc(var(--text-base) + 0.02rem);
+        line-height: 1.82;
+        font-style: italic;
+        color: var(--text);
+        margin: 0;
+        padding: 1.35rem 1.15rem 1.45rem 1.35rem;
+        border-left: 2px solid var(--gold);
+        white-space: pre-line;
+        background: var(--surface);
+        box-shadow: inset 0 0 0 1px rgba(44, 26, 14, 0.06);
+        border-radius: var(--radius-subtle);
+        max-width: 38rem;
+      }
+
+      .theme-dark .prayer-block {
+        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.04);
+      }
+
+      .examen-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        counter-reset: examen;
+      }
+
+      .examen-list li {
+        counter-increment: examen;
+        position: relative;
+        padding-left: 2.35rem;
+        margin-bottom: 1.35rem;
+        font-family: var(--font-body);
+        font-size: var(--text-base);
+        line-height: var(--leading-body);
+        color: var(--text);
+        max-width: 38rem;
+      }
+
+      .examen-list li:last-child {
+        margin-bottom: 0;
+      }
+
+      .examen-list li::before {
+        content: counter(examen);
+        position: absolute;
+        left: 0;
+        top: 0.15rem;
+        width: 1.5rem;
+        height: 1.5rem;
+        font-size: var(--text-xs);
+        letter-spacing: 0.06em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--oxblood);
+        color: var(--oxblood);
+        border-radius: var(--radius-subtle);
+        font-family: var(--font-body);
+      }
+
+
+      /* Footer leather band */
+      .leather-footer {
+        margin-top: 2.5rem;
+        background: var(--leather);
+        color: var(--header-fg-muted);
+        border-top: 2px solid var(--oxblood);
+        padding: 1.5rem 1.25rem 2rem;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+      }
+
+      .leather-footer-inner {
+        max-width: 680px;
+        margin: 0 auto;
+      }
+
+      .footer-tools {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.75rem 1rem;
+        margin-bottom: 1.25rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid rgba(245, 240, 232, 0.12);
+      }
+
+      .footer-tools label {
+        font-family: var(--font-body);
+        font-size: var(--text-xs);
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--header-fg-muted);
+      }
+
+      .footer-tools input[type="date"] {
+        font-family: var(--font-body);
+        font-size: var(--text-sm);
+        padding: 0.4rem 0.5rem;
+        border: 1px solid rgba(245, 240, 232, 0.2);
+        border-radius: var(--radius-subtle);
+        background: rgba(0, 0, 0, 0.25);
+        color: var(--header-fg);
+      }
+
+      .footer-tools .btn-text {
+        font-family: var(--font-body);
+        font-size: var(--text-sm);
+        padding: 0.45rem 0.75rem;
+        border: 1px solid rgba(245, 240, 232, 0.25);
+        background: transparent;
+        color: var(--header-fg);
+        border-radius: var(--radius-subtle);
+        cursor: pointer;
+      }
+
+      .footer-tools .btn-text:hover {
+        background: rgba(255, 255, 255, 0.06);
+      }
+
+      .footer-tools .btn-text:focus-visible {
+        outline: 2px solid var(--gold);
+        outline-offset: 2px;
+      }
+
+      .theme-toggle-foot {
+        margin-left: auto;
+        font-family: var(--font-body);
+        font-size: var(--text-xs);
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        padding: 0.45rem 0.65rem;
+        border: 1px solid rgba(245, 240, 232, 0.2);
+        background: rgba(0, 0, 0, 0.2);
+        color: var(--header-fg);
+        border-radius: var(--radius-subtle);
+        cursor: pointer;
+      }
+
+      .footer-prose {
+        font-family: var(--font-body);
+        font-size: var(--text-sm);
+        line-height: var(--leading-body);
+        color: var(--header-fg-muted);
+      }
+
+      .footer-prose p {
+        margin: 0 0 0.85rem;
+      }
+
+      .footer-prose p:last-child {
+        margin-bottom: 0;
+      }
+
+      .footer-cta {
+        font-family: var(--font-display);
+        font-size: var(--text-lg);
+        color: var(--header-fg);
+        margin: 1.25rem 0 0;
+        font-style: italic;
+      }
+
+      .footer-pilot-block {
+        margin: 1.25rem 0 0;
+        padding-top: 1rem;
+        border-top: 1px solid rgba(245, 240, 232, 0.12);
+        font-family: var(--font-body);
+        font-size: var(--text-xs);
+        letter-spacing: 0.04em;
+        line-height: 1.55;
+        color: var(--header-fg-muted);
+      }
+
+      .footer-pilot-block p {
+        margin: 0 0 0.5rem;
+      }
+
+      .footer-pilot-block p:last-child {
+        margin-bottom: 0;
+      }
+
+      .footer-pilot-link {
+        color: var(--gold);
+        text-decoration: underline;
+        text-underline-offset: 2px;
+      }
+
+      .footer-pilot-link:focus-visible {
+        outline: 2px solid var(--gold);
+        outline-offset: 2px;
+      }
+
+      .footer-pilot-note {
+        font-style: italic;
+        opacity: 0.95;
+      }
+
+      .pmk-pilot-modal {
+        position: fixed;
+        inset: 0;
+        z-index: 15000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+      }
+
+      .pmk-pilot-modal[hidden] {
+        display: none !important;
+      }
+
+      .pmk-pilot-modal-backdrop {
+        position: absolute;
+        inset: 0;
+        background: rgba(44, 26, 14, 0.45);
+      }
+
+      .pmk-pilot-modal-panel {
+        position: relative;
+        z-index: 1;
+        max-width: 420px;
+        width: 100%;
+        max-height: min(85vh, 560px);
+        overflow-y: auto;
+        background: var(--parchment);
+        color: var(--ink);
+        border: 1px solid rgba(139, 26, 26, 0.4);
+        border-radius: var(--radius-subtle);
+        padding: 1.35rem 1.25rem 1.25rem;
+        box-shadow: 0 20px 48px rgba(0, 0, 0, 0.28);
+      }
+
+      .theme-dark .pmk-pilot-modal-panel {
+        background: var(--surface-1);
+        color: var(--text);
+        border-color: rgba(139, 26, 26, 0.45);
+      }
+
+      .pmk-pilot-modal-panel h2 {
+        font-family: var(--font-display);
+        font-size: var(--text-lg);
+        margin: 0 0 0.75rem;
+        color: inherit;
+        padding-right: 2rem;
+      }
+
+      .pmk-pilot-modal-close {
+        position: absolute;
+        top: 0.5rem;
+        right: 0.5rem;
+        min-height: var(--touch);
+        min-width: var(--touch);
+        border: none;
+        background: transparent;
+        color: var(--ink-muted);
+        font-family: var(--font-body);
+        font-size: var(--text-xl);
+        line-height: 1;
+        cursor: pointer;
+        border-radius: var(--radius-subtle);
+      }
+
+      .theme-dark .pmk-pilot-modal-close {
+        color: var(--muted);
+      }
+
+      .pmk-pilot-modal-close:focus-visible {
+        outline: 2px solid var(--gold);
+        outline-offset: 2px;
+      }
+
+      .pmk-pilot-modal-panel .pilot-lead {
+        font-family: var(--font-body);
+        font-size: var(--text-sm);
+        line-height: var(--leading-body);
+        margin: 0 0 0.65rem;
+        color: inherit;
+      }
+
+      .pmk-pilot-modal-panel .pilot-install-note {
+        margin: 0 0 1rem;
+      }
+
+      .pmk-pilot-modal-panel p.pilot-platform {
+        font-family: var(--font-body);
+        font-size: var(--text-sm);
+        line-height: var(--leading-body);
+        margin: 0 0 0.65rem;
+        color: inherit;
+      }
+
+      .pmk-welcome-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.65rem;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 1.35rem;
+      }
+
+      .pmk-pilot-skip {
+        min-height: var(--touch);
+        padding: 0 1rem;
+        font-family: var(--font-display);
+        font-size: var(--text-sm);
+        background: transparent;
+        color: var(--ink-muted);
+        border: 1px solid rgba(139, 26, 26, 0.35);
+        border-radius: var(--radius-subtle);
+        cursor: pointer;
+      }
+
+      .theme-dark .pmk-pilot-skip {
+        color: var(--muted);
+        border-color: rgba(245, 240, 232, 0.2);
+      }
+
+      .pmk-pilot-skip:focus-visible {
+        outline: 2px solid var(--gold);
+        outline-offset: 2px;
+      }
+
+      .pmk-pilot-continue {
+        min-height: var(--touch);
+        padding: 0 1.15rem;
+        font-family: var(--font-display);
+        font-size: var(--text-base);
+        background: var(--leather);
+        color: var(--header-fg);
+        border: 1px solid var(--oxblood);
+        border-radius: var(--radius-subtle);
+        cursor: pointer;
+      }
+
+      .pmk-pilot-continue:focus-visible {
+        outline: 2px solid var(--gold);
+        outline-offset: 2px;
+      }
+
+      #pmk-install-modal.pmk-pilot-modal {
+        z-index: 16000;
+      }
+
+      .pilot-closing {
+        margin-top: 1rem !important;
+        font-style: italic;
+        font-size: var(--text-xs) !important;
+        color: var(--ink-muted) !important;
+      }
+
+      .theme-dark .pilot-closing {
+        color: var(--muted) !important;
+      }
+
+      .footer-pilot-install-link {
+        font-family: var(--font-body);
+        font-size: var(--text-xs);
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        background: transparent;
+        border: none;
+        color: var(--gold);
+        text-decoration: underline;
+        text-underline-offset: 2px;
+        cursor: pointer;
+        padding: 0.35rem 0;
+      }
+
+      .footer-pilot-install-link:focus-visible {
+        outline: 2px solid var(--gold);
+        outline-offset: 2px;
+      }
+
+      .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
+
+      .season-progress-strip {
+        position: relative;
+        z-index: 1;
+        background: var(--bg);
+        border-bottom: 1px solid rgba(139, 26, 26, 0.2);
+        padding: 0.35rem 1.1rem 0.45rem;
+        max-width: 680px;
+        margin: 0 auto;
+        width: 100%;
+      }
+
+      .season-progress-label {
+        margin: 0 0 0.28rem;
+        font-family: var(--font-body);
+        font-size: 0.65rem;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: var(--muted);
+      }
+
+      .season-progress-track {
+        height: 3px;
+        border-radius: 2px;
+        background: var(--surface-2);
+        overflow: hidden;
+      }
+
+      .season-progress-fill {
+        height: 100%;
+        width: 0%;
+        background: var(--color-accent);
+        border-radius: 2px;
+        transition: width 0.35s ease;
+      }
+
+      .scripture-ref-row {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 0.5rem;
+        margin-bottom: 0.85rem;
+      }
+
+      .scripture-ref-row .scripture-ref-line {
+        margin: 0;
+        flex: 1 1 auto;
+        min-width: 0;
+      }
+
+      .share-scripture-btn {
+        flex-shrink: 0;
+        width: var(--touch);
+        height: var(--touch);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid rgba(139, 26, 26, 0.35);
+        background: var(--surface);
+        color: var(--oxblood);
+        border-radius: var(--radius-subtle);
+        cursor: pointer;
+        margin-top: -0.15rem;
+      }
+
+      .share-scripture-btn svg {
+        width: 22px;
+        height: 22px;
+        stroke-width: 2;
+      }
+
+      .share-scripture-btn:focus-visible {
+        outline: 2px solid var(--gold);
+        outline-offset: 2px;
+      }
+
+      .scripture-block.scripture-hero .scripture-text {
+        font-size: clamp(1.35rem, 5vw, 1.95rem);
+        line-height: 1.48;
+        max-width: none;
+      }
+
+      .father-note-rail .body-text {
+        border-left: 2px solid var(--color-accent);
+        padding-left: 1rem;
+        margin-left: 0;
+        max-width: none;
+      }
+
+      .challenge-action-band {
+        background: var(--leather);
+        color: var(--parchment);
+        padding: var(--space-8) 1.25rem;
+        margin-left: -1.1rem;
+        margin-right: -1.1rem;
+        width: calc(100% + 2.2rem);
+        max-width: none;
+        border-radius: var(--radius-subtle);
+        box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2);
+      }
+
+      @media (min-width: 400px) {
+        .challenge-action-band {
+          margin-left: -1.25rem;
+          margin-right: -1.25rem;
+          width: calc(100% + 2.5rem);
+        }
+      }
+
+      .theme-dark .challenge-action-band {
+        background: var(--leather-mid);
+        color: var(--header-fg);
+      }
+
+      .challenge-action-band .section-label {
+        color: rgba(245, 240, 232, 0.75);
+        border-bottom-color: rgba(192, 64, 64, 0.55);
+        max-width: none;
+      }
+
+      .challenge-type-badge-pill {
+        display: inline-block;
+        font-family: var(--font-body);
+        font-size: 0.65rem;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--parchment);
+        background: rgba(139, 26, 26, 0.95);
+        padding: 0.35rem 0.75rem;
+        border-radius: 999px;
+        margin: 0 0 0.85rem;
+        font-weight: 600;
+      }
+
+      .theme-dark .challenge-type-badge-pill {
+        color: #f5f0e8;
+        background: rgba(192, 64, 64, 0.55);
+      }
+
+      .challenge-action-band .body-text {
+        color: inherit;
+        max-width: none;
+        font-size: calc(var(--text-base) + 0.05rem);
+      }
+
+      .least-band {
+        background: var(--surface-2);
+        padding: 1.15rem 1.1rem;
+        border-radius: var(--radius-subtle);
+        margin-left: -0.25rem;
+        margin-right: -0.25rem;
+      }
+
+      .least-matthew-ref {
+        display: block;
+        font-size: 0.65rem;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--muted);
+        margin: 0 0 0.5rem;
+      }
+
+      .prayer-rail-section .section-label {
+        margin-bottom: 0.65rem;
+      }
+
+      .prayer-block-wrap {
+        border-top: 1px solid rgba(139, 26, 26, 0.22);
+        border-bottom: 1px solid rgba(139, 26, 26, 0.22);
+        padding: 1rem 0;
+        margin: 0.5rem 0 0;
+      }
+
+      .prayer-block {
+        font-style: italic;
+        margin: 0;
+        padding: 0 0 0 2rem;
+        border-left: none;
+        background: transparent;
+        box-shadow: none;
+        max-width: none;
+      }
+
+      .examen-evening-block {
+        padding-top: 0.75rem;
+      }
+
+      .examen-evening-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+      }
+
+      .examen-moon-icon {
+        width: var(--touch);
+        height: var(--touch);
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--oxblood);
+      }
+
+      .examen-moon-icon svg {
+        width: 26px;
+        height: 26px;
+        stroke-width: 1.75;
+      }
+
+      .examen-before-sleep {
+        font-family: var(--font-body);
+        font-size: 0.65rem;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        color: var(--muted);
+        margin: 0;
+      }
+
+      .weekly-review-block {
+        margin-bottom: 1.5rem;
+        padding: 1rem 0 1.25rem;
+        border-bottom: 1px solid rgba(139, 26, 26, 0.18);
+      }
+
+      .weekly-review-block[hidden] {
+        display: none !important;
+      }
+
+      .weekly-review-head {
+        font-size: 0.65rem;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        color: var(--oxblood);
+        margin: 0 0 0.75rem;
+        font-weight: 600;
+      }
+
+      .weekly-review-block p {
+        margin: 0 0 0.85rem;
+        font-family: var(--font-body);
+        line-height: var(--leading-body);
+      }
+
+      .weekly-review-block p:last-child {
+        margin-bottom: 0;
+      }
+
+      .examen-subhead {
+        font-size: 0.65rem;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--muted);
+        margin: 0 0 0.65rem;
+      }
+
+      .pmk-toast {
+        position: fixed;
+        bottom: 1.25rem;
+        left: 50%;
+        transform: translateX(-50%) translateY(120%);
+        z-index: 10000;
+        background: var(--leather);
+        color: var(--header-fg);
+        padding: 0.65rem 1.25rem;
+        border-radius: var(--radius-subtle);
+        font-family: var(--font-body);
+        font-size: var(--text-sm);
+        box-shadow: 0 6px 24px rgba(0, 0, 0, 0.35);
+        transition: transform 0.28s ease;
+        pointer-events: none;
+      }
+
+      .pmk-toast.is-visible {
+        transform: translateX(-50%) translateY(0);
+      }
+
+      @media (min-width: 480px) {
+        .masthead-inner {
+          padding-left: 1.5rem;
+          padding-right: 1.5rem;
+        }
+        .page {
+          padding-left: 1.5rem;
+          padding-right: 1.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <svg class="grain-defs" aria-hidden="true" focusable="false">
+      <filter id="pmk-paper-grain" x="0%" y="0%" width="100%" height="100%">
+        <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" stitchTiles="stitch" result="noise" />
+        <feColorMatrix type="saturate" values="0" in="noise" result="gray" />
+        <feComponentTransfer in="gray" result="contrast">
+          <feFuncA type="linear" slope="0.4" />
+        </feComponentTransfer>
+      </filter>
+    </svg>
+
+    <div class="shell">
+      <div id="pmk-toast" class="pmk-toast" role="status" aria-live="polite" hidden>Copied!</div>
+
+      <header class="masthead" role="banner">
+        <div class="masthead-inner">
+          <div class="masthead-identity">
+            <div class="identity-left">
+              <svg
+                class="pmk-logo-mark"
+                viewBox="0 0 32 32"
+                width="24"
+                height="24"
+                aria-hidden="true"
+                focusable="false"
+              >
+                <g fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="16" cy="16" r="13" opacity="0.9" />
+                  <path d="M16 7v18M11 14h10" />
+                  <path d="M6.5 20.5c2.2-2.8 3.8-5.8 4.8-9.2M8 19l2.4-1.1M7.2 16.5l3.1-.6" />
+                  <path d="M25.5 20.5c-2.2-2.8-3.8-5.8-4.8-9.2M24 19l-2.4-1.1M24.8 16.5l-3.1-.6" />
+                </g>
+              </svg>
+              <p class="brand-name-title">Peacemakers</p>
+            </div>
+            <nav class="nav-arrows" aria-label="Day navigation">
+              <button type="button" class="icon-btn" id="btn-prev" aria-label="Previous day">
+                <i data-lucide="chevron-left" aria-hidden="true"></i>
+              </button>
+              <button type="button" class="icon-btn" id="btn-next" aria-label="Next day">
+                <i data-lucide="chevron-right" aria-hidden="true"></i>
+              </button>
+            </nav>
+          </div>
+          <hr class="masthead-rule" aria-hidden="true" />
+          <div class="masthead-context">
+            <span class="context-item context-tagline">A Catholic Father's Daily Companion</span>
+            <span class="context-sep context-sep-after-tagline" aria-hidden="true">·</span>
+            <span class="context-item context-date" id="header-date-line" aria-live="polite">—</span>
+            <span class="context-sep" aria-hidden="true">·</span>
+            <span class="context-item season-badge" id="season-badge">
+              <span class="lit-dot lit-green" id="season-dot" aria-hidden="true"></span>
+              <span id="season-name">—</span>
+            </span>
+            <span class="context-sep context-sep-before-theme" aria-hidden="true">·</span>
+            <span class="context-item context-theme" id="header-theme-line">
+              <strong>Theme</strong> — <span id="header-theme-text">—</span>
+            </span>
+          </div>
+        </div>
+      </header>
+
+      <div class="season-progress-strip" id="season-progress-strip" aria-hidden="true">
+        <p class="season-progress-label" id="season-progress-label">—</p>
+        <div class="season-progress-track">
+          <div class="season-progress-fill" id="season-progress-fill"></div>
+        </div>
+      </div>
+
+      <main class="page" id="page-main" aria-label="Daily reading">
+        <div class="data-banner" id="data-error-banner" hidden>
+          <strong>Content notice</strong>
+          <span id="data-error-text"></span>
+        </div>
+
+        <h1 class="visually-hidden" id="page-date-heading">Peacemakers</h1>
+
+        <div class="page-inner" id="page-inner">
+          <article>
+            <section
+              class="section scripture-block scripture-of-day scripture-hero"
+              id="scripture-section"
+              aria-labelledby="lbl-scripture-primary"
+            >
+              <h2 class="section-label scripture-ref" id="lbl-scripture-primary">Scripture of the Day</h2>
+              <div class="scripture-ref-row">
+                <p class="scripture-ref-line" id="primary-ref-display"></p>
+                <button type="button" class="share-scripture-btn" id="btn-share-scripture" aria-label="Share today’s Scripture">
+                  <i data-lucide="share-2" aria-hidden="true"></i>
+                </button>
+              </div>
+              <blockquote class="scripture-text drop-cap" cite="">
+                <p id="primary-text-display"></p>
+              </blockquote>
+
+              <div id="secondary-wrap" hidden>
+                <hr class="divider-ox" aria-hidden="true" />
+                <p class="scripture-ref-line secondary" id="secondary-ref-display"></p>
+                <blockquote class="scripture-text scripture-secondary drop-cap" cite="">
+                  <p id="secondary-text-display"></p>
+                </blockquote>
+              </div>
+
+              <p class="connection-note" id="connection-note-display" hidden></p>
+            </section>
+
+            <hr class="divider-ox" aria-hidden="true" />
+
+            <section class="section" aria-labelledby="lbl-reflection">
+              <h2 class="section-label" id="lbl-reflection">A Father’s Reflection</h2>
+              <p class="body-text pull" id="field-reflection"></p>
+            </section>
+
+            <hr class="divider-ox" aria-hidden="true" />
+
+            <section class="section father-note-rail" aria-labelledby="lbl-father-note">
+              <h2 class="section-label" id="lbl-father-note">For the Head of the Home</h2>
+              <p class="body-text" id="field-father-note"></p>
+            </section>
+
+            <hr class="divider-ox" aria-hidden="true" />
+
+            <section class="section challenge-action-band" aria-labelledby="lbl-challenge">
+              <h2 class="section-label" id="lbl-challenge">Go and Do</h2>
+              <span class="challenge-type-badge-pill" id="field-challenge-type"></span>
+              <p class="body-text" id="field-challenge"></p>
+            </section>
+
+            <hr class="divider-ox" aria-hidden="true" />
+
+            <section class="section least-band" aria-labelledby="lbl-least">
+              <h2 class="section-label section-label-wrapped" id="lbl-least">Whatever You Did For One of These</h2>
+              <span class="least-matthew-ref" aria-hidden="true">Matthew 25:40</span>
+              <p class="body-text" id="field-least"></p>
+            </section>
+
+            <hr class="divider-ox" aria-hidden="true" />
+
+            <section class="section prayer-rail-section" aria-labelledby="lbl-prayer">
+              <h2 class="section-label" id="lbl-prayer">A Father’s Prayer</h2>
+              <div class="prayer-block-wrap">
+                <p class="prayer-block" id="field-prayer"></p>
+              </div>
+            </section>
+
+            <hr class="divider-ox" aria-hidden="true" />
+
+            <section class="section examen-evening-block" aria-labelledby="lbl-examen">
+              <div class="examen-evening-header">
+                <span class="examen-moon-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+                  </svg>
+                </span>
+                <h2 class="examen-before-sleep" id="lbl-examen">Before You Sleep</h2>
+              </div>
+              <div class="weekly-review-block" id="weekly-review-block" hidden>
+                <p class="weekly-review-head">Weekly Review</p>
+                <p id="weekly-review-prompt"></p>
+                <p id="weekly-review-challenges"></p>
+                <p id="weekly-review-prayer" class="prayer-block" style="padding-left: 0"></p>
+              </div>
+              <p class="examen-subhead" id="daily-examen-subhead">Daily Examen</p>
+              <ol class="examen-list" id="examen-prompts" aria-label="Evening examen prompts"></ol>
+            </section>
+          </article>
+        </div>
+      </main>
+
+      <footer class="leather-footer" role="contentinfo">
+        <div class="leather-footer-inner">
+          <div class="footer-tools">
+            <button type="button" class="btn-text" id="btn-today">Today</button>
+            <div>
+              <label for="date-picker">Open to date</label>
+              <input type="date" id="date-picker" min="2026-01-01" max="2026-12-31" aria-label="Choose a date in 2026" />
+            </div>
+            <button type="button" class="theme-toggle-foot" id="theme-toggle">Theme: Auto</button>
+            <button type="button" class="footer-pilot-install-link" id="btn-install-app">Install App</button>
+          </div>
+          <div class="footer-prose">
+            <p>
+              Ground each day in the sacraments, Sacred Scripture, and the teaching of the Church. For Mass readings and the
+              Ordo, follow your diocese. See Christ in the poor, the forgotten, and those who burden you—your family needs your
+              holiness more than your perfection.
+            </p>
+          </div>
+          <div class="footer-pilot-block">
+            <p><strong>Pilot build</strong></p>
+            <p class="footer-pilot-note">Best experienced from your home screen.</p>
+            <p><a href="mailto:feedback@example.com" class="footer-pilot-link">Send feedback</a></p>
+          </div>
+          <p class="footer-cta" id="cta-close" aria-live="polite"></p>
+        </div>
+      </footer>
+
+      <div id="pmk-welcome-modal" class="pmk-pilot-modal" hidden role="dialog" aria-modal="true" aria-labelledby="welcome-modal-title">
+        <div class="pmk-pilot-modal-backdrop" id="pmk-welcome-modal-backdrop" aria-hidden="true"></div>
+        <div class="pmk-pilot-modal-panel">
+          <h2 id="welcome-modal-title">Welcome to the Peacemakers pilot</h2>
+          <p class="pilot-lead">Peacemakers is a daily Catholic discipleship companion for fathers.</p>
+          <p class="pilot-lead pilot-install-note">For the best experience, install it to your home screen.</p>
+          <p class="pilot-platform">
+            <strong>iPhone:</strong> Open in Safari, tap Share, then Add to Home Screen.
+          </p>
+          <p class="pilot-platform">
+            <strong>Android:</strong> Open in Chrome, open the menu, then tap Install app or Add to Home screen.
+          </p>
+          <div class="pmk-welcome-actions">
+            <button type="button" class="pmk-pilot-skip" id="pilot-skip">Skip</button>
+            <button type="button" class="pmk-pilot-continue" id="pilot-continue">Continue</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="pmk-install-modal" class="pmk-pilot-modal" hidden role="dialog" aria-modal="true" aria-labelledby="install-modal-title">
+        <div class="pmk-pilot-modal-backdrop" id="pmk-install-modal-backdrop" aria-hidden="true"></div>
+        <div class="pmk-pilot-modal-panel">
+          <button type="button" class="pmk-pilot-modal-close" id="pmk-install-close" aria-label="Close">×</button>
+          <h2 id="install-modal-title">Install Peacemakers</h2>
+          <p class="pilot-lead">For the best experience, add Peacemakers to your home screen.</p>
+          <p class="pilot-platform">
+            <strong>iPhone:</strong> Open in Safari, tap Share, then tap Add to Home Screen.
+          </p>
+          <p class="pilot-platform">
+            <strong>Android:</strong> Open in Chrome, open the browser menu, then tap Install app or Add to Home screen.
+          </p>
+          <p class="pilot-lead pilot-closing">Once installed, Peacemakers opens like an app from your home screen.</p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      (function () {
+        "use strict";
+
+        var YEAR = 2026;
+        var WEEKDAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+        var MONTHS = [
+          "January",
+          "February",
+          "March",
+          "April",
+          "May",
+          "June",
+          "July",
+          "August",
+          "September",
+          "October",
+          "November",
+          "December",
+        ];
+
+        var themeMode = "auto";
+
+        function pad2(n) {
+          return n < 10 ? "0" + n : String(n);
+        }
+
+        function contentKey(month, day) {
+          return pad2(month) + "-" + pad2(day);
+        }
+
+        function daysInMonth(month) {
+          if (month === 2) return 28;
+          if (month === 4 || month === 6 || month === 9 || month === 11) return 30;
+          return 31;
+        }
+
+        function clampMonthDay(month, day) {
+          var dim = daysInMonth(month);
+          if (day > dim) day = dim;
+          if (day < 1) day = 1;
+          if (month < 1) month = 1;
+          if (month > 12) month = 12;
+          return { month: month, day: day };
+        }
+
+        function mapDeviceTo2026() {
+          var now = new Date();
+          var m = now.getMonth() + 1;
+          var d = now.getDate();
+          if (m === 2 && d === 29) d = 28;
+          return clampMonthDay(m, d);
+        }
+
+        function parseISODate(str) {
+          var parts = String(str).split("-");
+          if (parts.length !== 3) return null;
+          var y = parseInt(parts[0], 10);
+          var mo = parseInt(parts[1], 10);
+          var da = parseInt(parts[2], 10);
+          if (y !== YEAR || !mo || !da) return null;
+          return clampMonthDay(mo, da);
+        }
+
+        function toISO(month, day) {
+          return YEAR + "-" + pad2(month) + "-" + pad2(day);
+        }
+
+        function weekdayName(month, day) {
+          var dt = new Date(YEAR, month - 1, day);
+          return WEEKDAYS[dt.getDay()];
+        }
+
+        function addDays(month, day, delta) {
+          var dt = new Date(YEAR, month - 1, day);
+          dt.setDate(dt.getDate() + delta);
+          if (dt.getFullYear() !== YEAR) {
+            if (delta > 0) return { month: 1, day: 1 };
+            return { month: 12, day: 31 };
+          }
+          return clampMonthDay(dt.getMonth() + 1, dt.getDate());
+        }
+
+        var selected = mapDeviceTo2026();
+
+        function getSafeData() {
+          if (window.__PMK_DATA_LOAD_FAILED__) return null;
+          var d = window.PMK_APP_DATA;
+          if (!d || typeof d !== "object") return null;
+          return d;
+        }
+
+        function validateDataShape(data) {
+          if (!data) return "Data object is missing.";
+          if (typeof data.monthlyThemes !== "object" || data.monthlyThemes === null)
+            return "monthlyThemes is missing or invalid.";
+          if (typeof data.liturgical !== "object" || data.liturgical === null) return "liturgical is missing or invalid.";
+          if (typeof data.daily !== "object" || data.daily === null) return "daily is missing or invalid.";
+          var keys = Object.keys(data.daily);
+          if (keys.length < 360) return "daily map has only " + keys.length + " entries.";
+          return null;
+        }
+
+        var data = getSafeData();
+        var validationMessage = null;
+        if (window.__PMK_DATA_LOAD_FAILED__) {
+          validationMessage = "daily-content-2026.js failed to load.";
+          data = null;
+        } else if (!data) {
+          validationMessage = "PMK_APP_DATA was not found.";
+          data = null;
+        } else {
+          validationMessage = validateDataShape(data);
+        }
+
+        var CHALLENGE_LABELS = {
+          prayer: "Prayer",
+          sacrifice: "Sacrifice",
+          service: "Service",
+          study: "Study",
+          conversation: "Conversation",
+        };
+
+        var supportsFineMotion = window.matchMedia && !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+        function applyThemeFromState() {
+          var root = document.documentElement;
+          root.classList.remove("theme-light", "theme-dark");
+          if (themeMode === "light") root.classList.add("theme-light");
+          else if (themeMode === "dark") root.classList.add("theme-dark");
+        }
+
+        function updateThemeToggleLabel() {
+          var btn = document.getElementById("theme-toggle");
+          var label = themeMode === "auto" ? "Auto" : themeMode === "light" ? "Light" : "Dark";
+          btn.textContent = "Theme: " + label;
+          btn.setAttribute(
+            "aria-label",
+            "Color theme " + label + ". Cycles auto, light, dark. Resets on refresh."
+          );
+        }
+
+        function cycleTheme() {
+          if (themeMode === "auto") themeMode = "light";
+          else if (themeMode === "light") themeMode = "dark";
+          else themeMode = "auto";
+          applyThemeFromState();
+          updateThemeToggleLabel();
+        }
+
+        var elHeaderDate = document.getElementById("header-date-line");
+        var elSeasonName = document.getElementById("season-name");
+        var elSeasonDot = document.getElementById("season-dot");
+        var elHeaderThemeText = document.getElementById("header-theme-text");
+        var elPageMain = document.getElementById("page-main");
+        var elPageInner = document.getElementById("page-inner");
+        var elPageDateHeading = document.getElementById("page-date-heading");
+        var elScriptureSection = document.getElementById("scripture-section");
+        var elPicker = document.getElementById("date-picker");
+        var elErrorBanner = document.getElementById("data-error-banner");
+        var elErrorText = document.getElementById("data-error-text");
+        var elPrimaryRef = document.getElementById("primary-ref-display");
+        var elPrimaryText = document.getElementById("primary-text-display");
+        var elSecondaryWrap = document.getElementById("secondary-wrap");
+        var elSecondaryRef = document.getElementById("secondary-ref-display");
+        var elSecondaryText = document.getElementById("secondary-text-display");
+        var elConnection = document.getElementById("connection-note-display");
+        var elReflection = document.getElementById("field-reflection");
+        var elFatherNote = document.getElementById("field-father-note");
+        var elPrayer = document.getElementById("field-prayer");
+        var elChallengeType = document.getElementById("field-challenge-type");
+        var elChallenge = document.getElementById("field-challenge");
+        var elLeast = document.getElementById("field-least");
+        var elExamenList = document.getElementById("examen-prompts");
+        var elCta = document.getElementById("cta-close");
+        var elSeasonProgressLabel = document.getElementById("season-progress-label");
+        var elSeasonProgressFill = document.getElementById("season-progress-fill");
+        var elSeasonProgressStrip = document.getElementById("season-progress-strip");
+        var elBtnShare = document.getElementById("btn-share-scripture");
+        var elToast = document.getElementById("pmk-toast");
+        var elWeeklyBlock = document.getElementById("weekly-review-block");
+        var elWeeklyPrompt = document.getElementById("weekly-review-prompt");
+        var elWeeklyCh = document.getElementById("weekly-review-challenges");
+        var elWeeklyPray = document.getElementById("weekly-review-prayer");
+        var elDailyExamenSub = document.getElementById("daily-examen-subhead");
+        var challengeTypeHistoryState = [];
+        var pilotWelcomeDismissed = false;
+
+        function liturgicalClass(color) {
+          var c = (color || "green").toLowerCase();
+          if (c === "white" || c === "gold") return "lit-white";
+          if (c === "purple" || c === "violet") return "lit-purple";
+          if (c === "red") return "lit-red";
+          return "lit-green";
+        }
+
+        function liturgicalClassFromSeason(seasonName) {
+          var s = (seasonName && String(seasonName).toLowerCase()) || "";
+          if (s === "advent" || s === "lent") return "lit-purple";
+          if (s === "christmas" || s === "easter") return "lit-white";
+          if (s === "holy week" || s === "pentecost") return "lit-red";
+          return "lit-green";
+        }
+
+        function fallbackLiturgical() {
+          return { season: "Ordinary Time", color: "green", celebration: null, rank: null };
+        }
+
+        function getLiturgical(month, day) {
+          if (!data || !data.liturgical) return fallbackLiturgical();
+          var L = data.liturgical[contentKey(month, day)];
+          if (!L || typeof L.season !== "string") return fallbackLiturgical();
+          return L;
+        }
+
+        function getDailyRecord(month, day) {
+          if (!data || !data.daily) return null;
+          return data.daily[contentKey(month, day)] || null;
+        }
+
+        function getMonthlyTheme(month) {
+          if (!data || !data.monthlyThemes) return null;
+          var mt = data.monthlyThemes;
+          var t = mt[month];
+          if (typeof t !== "string" || !t.trim()) t = mt[String(month)];
+          return typeof t === "string" && t.trim() ? t : null;
+        }
+
+        function textOrPlaceholder(val, fallback) {
+          if (typeof val === "string" && val.trim().length) return val;
+          return fallback;
+        }
+
+        function parseLegacyScripture(scripture) {
+          var divider = " — Summary: ";
+          var idx = scripture.indexOf(divider);
+          if (idx === -1) {
+            var d2 = scripture.indexOf(" — ");
+            if (d2 !== -1) {
+              return { ref: scripture.slice(0, d2).trim(), text: scripture.slice(d2 + 3).trim() };
+            }
+            return { ref: "Holy Scripture", text: scripture.trim() };
+          }
+          return { ref: scripture.slice(0, idx).trim(), text: scripture.slice(idx + divider.length).trim() };
+        }
+
+        function resolveScripture(rec) {
+          if (!rec) return { ref: "", text: "", secondaryRef: null, secondaryText: null, connection: null };
+          var ref = rec.scripturePrimaryRef;
+          var txt = rec.scripturePrimaryText;
+          if ((!txt || !String(txt).trim()) && rec.scripture) {
+            var p = parseLegacyScripture(String(rec.scripture));
+            ref = ref || p.ref;
+            txt = p.text;
+          }
+          var secRef = rec.scriptureSecondaryRef || null;
+          var secTxt = rec.scriptureSecondaryText || null;
+          if (secRef && (!secTxt || !String(secTxt).trim())) secTxt = null;
+          if (!secRef || !secTxt) {
+            secRef = null;
+            secTxt = null;
+          }
+          var conn = rec.connectionNote && String(rec.connectionNote).trim() ? String(rec.connectionNote).trim() : null;
+          return { ref: ref || "", text: txt || "", secondaryRef: secRef, secondaryText: secTxt, connection: conn };
+        }
+
+        function splitExamenPrompts(journalPrompt) {
+          var raw = typeof journalPrompt === "string" ? journalPrompt : "";
+          var parts = raw.split(/\n\n+/).map(function (s) {
+            return s.trim();
+          }).filter(Boolean);
+          if (parts.length >= 2) return [parts[0], parts.slice(1).join("\n\n")];
+          if (parts.length === 1) return [parts[0], "Where did I fall short as a father or husband today, and how do I bring that honestly before God before I sleep?"];
+          return [
+            "Where did I see Christ today—in my marriage, my children, my work, or among the poor and forgotten?",
+            "Where did I fall short as a father or husband today, and how do I bring that honestly before God before I sleep?",
+          ];
+        }
+
+        function refreshIcons() {
+          if (window.lucide && typeof lucide.createIcons === "function") {
+            lucide.createIcons();
+          }
+        }
+
+        function runRenderBody() {
+          var md = clampMonthDay(selected.month, selected.day);
+          selected = md;
+          var month = md.month;
+          var day = md.day;
+
+          var w = weekdayName(month, day);
+          var dateLine = w + ", " + MONTHS[month - 1] + " " + day;
+          elHeaderDate.textContent = dateLine;
+          elPageDateHeading.textContent = "Peacemakers — " + dateLine + ", " + YEAR;
+
+          var lit = getLiturgical(month, day);
+          var ck = contentKey(month, day);
+          var gsp = data && typeof data.getSeasonProgress === "function" ? data.getSeasonProgress(ck) : null;
+          var seasonForBadge = gsp && gsp.season ? gsp.season : lit.season;
+          elSeasonName.textContent = lit.celebration ? seasonForBadge + " · " + lit.celebration : seasonForBadge;
+          elSeasonDot.className = "lit-dot " + (gsp && gsp.season ? liturgicalClassFromSeason(gsp.season) : liturgicalClass(lit.color));
+
+          var mt = getMonthlyTheme(month);
+          elHeaderThemeText.textContent = mt || "—";
+          if (gsp && elSeasonProgressLabel && elSeasonProgressFill) {
+            elSeasonProgressLabel.textContent =
+              gsp.season + " · Week " + gsp.week + " of " + gsp.totalWeeks;
+            elSeasonProgressFill.style.width = String(Math.min(100, Math.max(0, gsp.percentComplete))) + "%";
+            if (elSeasonProgressStrip) elSeasonProgressStrip.setAttribute("aria-hidden", "false");
+          } else if (elSeasonProgressLabel) {
+            elSeasonProgressLabel.textContent = "—";
+            if (elSeasonProgressFill) elSeasonProgressFill.style.width = "0%";
+          }
+
+          var today = mapDeviceTo2026();
+          var isToday = today.month === month && today.day === day;
+          elScriptureSection.classList.toggle("has-ribbon", isToday);
+
+          elPicker.value = toISO(month, day);
+
+          var rec = getDailyRecord(month, day);
+          if (rec && rec.challengeType) {
+            challengeTypeHistoryState.push(String(rec.challengeType));
+            while (challengeTypeHistoryState.length > 5) {
+              challengeTypeHistoryState.shift();
+            }
+          }
+          window.__PMK_RUNTIME__ = window.__PMK_RUNTIME__ || {};
+          window.__PMK_RUNTIME__.challengeTypeHistory = challengeTypeHistoryState.slice();
+
+          var ph =
+            "This day is still being filled. Open your Bible and the Church’s prayer; ask the Lord to lead your home today.";
+
+          var scr = resolveScripture(rec);
+          if (scr.text) {
+            elPrimaryRef.textContent = scr.ref || "Reading";
+            elPrimaryText.textContent = scr.text;
+          } else {
+            elPrimaryRef.textContent = "Holy Scripture";
+            elPrimaryText.textContent = textOrPlaceholder(null, ph + " Select a passage from your Bible or missal.");
+          }
+
+          if (scr.secondaryRef && scr.secondaryText) {
+            elSecondaryWrap.hidden = false;
+            elSecondaryRef.textContent = scr.secondaryRef;
+            elSecondaryText.textContent = scr.secondaryText;
+          } else {
+            elSecondaryWrap.hidden = true;
+            elSecondaryRef.textContent = "";
+            elSecondaryText.textContent = "";
+          }
+
+          if (scr.connection) {
+            elConnection.hidden = false;
+            elConnection.textContent = scr.connection;
+          } else {
+            elConnection.hidden = true;
+            elConnection.textContent = "";
+          }
+
+          elReflection.textContent = textOrPlaceholder(rec && rec.reflection, ph);
+
+          elFatherNote.textContent = textOrPlaceholder(
+            rec && rec.fatherNote,
+            "God measures your leadership first by how you treat the people who cannot leave you. Let this reading cost you one deliberate kindness at home before you spend courage anywhere else."
+          );
+
+          var ctypeRaw = rec && rec.challengeType != null ? String(rec.challengeType).trim() : "";
+          var ctype = ctypeRaw.toLowerCase();
+          var label = ctype && CHALLENGE_LABELS[ctype] ? CHALLENGE_LABELS[ctype] : "DISCIPLESHIP";
+          elChallengeType.textContent = label;
+
+          elChallenge.textContent = textOrPlaceholder(
+            rec && rec.challenge,
+            "Read today's Scripture passage aloud in your home."
+          );
+
+          elLeast.textContent = textOrPlaceholder(
+            rec && rec.leastOfThese,
+            "Name one person you see every week who probably eats alone. Text them before bed: no ask, no advice—only, I thought of you today."
+          );
+
+          elPrayer.textContent = textOrPlaceholder(
+            rec && rec.prayer,
+            "Lord Jesus Christ, Son of the living God,\nhave mercy on me, a sinner.\nTeach me to love my wife and children as you love your Church.\n\nAmen"
+          );
+
+          var isSunday = weekdayName(month, day) === "Sunday";
+          var wr = rec && rec.weeklyReview;
+          if (isSunday && wr && elWeeklyBlock) {
+            elWeeklyBlock.hidden = false;
+            elWeeklyPrompt.textContent = wr.prompt || "";
+            elWeeklyCh.textContent = wr.challengeReview || "";
+            elWeeklyPray.textContent = wr.closingPrayer || "";
+            if (elDailyExamenSub) elDailyExamenSub.hidden = false;
+          } else if (elWeeklyBlock) {
+            elWeeklyBlock.hidden = true;
+            elWeeklyPrompt.textContent = "";
+            elWeeklyCh.textContent = "";
+            elWeeklyPray.textContent = "";
+            if (elDailyExamenSub) elDailyExamenSub.hidden = true;
+          }
+
+          var prompts = splitExamenPrompts(rec && rec.journalPrompt);
+          elExamenList.innerHTML = "";
+          prompts.forEach(function (text) {
+            var li = document.createElement("li");
+            li.textContent = text;
+            elExamenList.appendChild(li);
+          });
+
+          elCta.textContent = isToday
+            ? "Until tomorrow: Christ goes with you. Lead your family to him."
+            : "The same Christ walks with you on this day. Press Today when you are ready to return to the present.";
+
+          if (window.__PMK_DATA_LOAD_FAILED__ || !window.PMK_APP_DATA) {
+            elErrorBanner.hidden = false;
+            elErrorText.textContent =
+              "The companion data file did not load. Check that daily-content-2026.js is beside this page. Some text uses fallbacks.";
+          } else if (validationMessage) {
+            elErrorBanner.hidden = false;
+            elErrorText.textContent = validationMessage + " Using safe fallbacks where needed.";
+          } else {
+            elErrorBanner.hidden = true;
+          }
+
+          refreshIcons();
+          window.scrollTo(0, 0);
+        }
+
+        var firstRender = true;
+
+        function render() {
+          if (firstRender) {
+            firstRender = false;
+            runRenderBody();
+            return;
+          }
+          if (supportsFineMotion && elPageInner) {
+            elPageInner.classList.add("is-fading");
+            window.requestAnimationFrame(function () {
+              window.requestAnimationFrame(function () {
+                runRenderBody();
+                elPageInner.classList.remove("is-fading");
+              });
+            });
+          } else {
+            runRenderBody();
+          }
+        }
+
+        document.getElementById("btn-prev").addEventListener("click", function () {
+          selected = addDays(selected.month, selected.day, -1);
+          render();
+        });
+
+        document.getElementById("btn-next").addEventListener("click", function () {
+          selected = addDays(selected.month, selected.day, 1);
+          render();
+        });
+
+        document.getElementById("btn-today").addEventListener("click", function () {
+          selected = mapDeviceTo2026();
+          render();
+        });
+
+        elPicker.addEventListener("change", function () {
+          var parsed = parseISODate(elPicker.value);
+          if (parsed) {
+            selected = parsed;
+            render();
+          }
+        });
+
+        document.getElementById("theme-toggle").addEventListener("click", cycleTheme);
+
+        document.addEventListener("keydown", function (e) {
+          var t = e.target;
+          if (t && (t.tagName === "TEXTAREA" || t.tagName === "INPUT")) return;
+          if (e.key === "ArrowLeft") {
+            e.preventDefault();
+            selected = addDays(selected.month, selected.day, -1);
+            render();
+          } else if (e.key === "ArrowRight") {
+            e.preventDefault();
+            selected = addDays(selected.month, selected.day, 1);
+            render();
+          }
+        });
+
+        if (window.matchMedia) {
+          window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", function () {
+            if (themeMode === "auto") applyThemeFromState();
+          });
+        }
+
+        function showToastCopied() {
+          if (!elToast) return;
+          elToast.hidden = false;
+          elToast.classList.add("is-visible");
+          window.setTimeout(function () {
+            elToast.classList.remove("is-visible");
+            elToast.hidden = true;
+          }, 2000);
+        }
+
+        if (elBtnShare) {
+          elBtnShare.addEventListener("click", function () {
+            var ref = (elPrimaryRef && elPrimaryRef.textContent) || "";
+            var txt = (elPrimaryText && elPrimaryText.textContent) || "";
+            var snippet = txt.replace(/\s+/g, " ").trim().slice(0, 100);
+            if (txt.length > 100) snippet += "…";
+            var title = "Peacemakers — " + ((elHeaderDate && elHeaderDate.textContent) || "");
+            var url = window.location.href;
+            var shareText = ref ? ref + ": " + snippet : snippet;
+            if (navigator.share) {
+              navigator
+                .share({ title: title, text: shareText, url: url })
+                .catch(function () {});
+            } else if (navigator.clipboard && navigator.clipboard.writeText) {
+              navigator.clipboard
+                .writeText(title + "\n" + shareText + "\n" + url)
+                .then(showToastCopied)
+                .catch(function () {});
+            } else {
+              try {
+                var ta = document.createElement("textarea");
+                ta.value = title + "\n" + shareText + "\n" + url;
+                document.body.appendChild(ta);
+                ta.select();
+                document.execCommand("copy");
+                document.body.removeChild(ta);
+                showToastCopied();
+              } catch (e2) {}
+            }
+          });
+        }
+
+        themeMode = "auto";
+        applyThemeFromState();
+        updateThemeToggleLabel();
+
+        var elWelcomeModal = document.getElementById("pmk-welcome-modal");
+        var elWelcomeBackdrop = document.getElementById("pmk-welcome-modal-backdrop");
+        var elInstallModal = document.getElementById("pmk-install-modal");
+        var elInstallBackdrop = document.getElementById("pmk-install-modal-backdrop");
+        var elInstallClose = document.getElementById("pmk-install-close");
+        var btnInstallApp = document.getElementById("btn-install-app");
+
+        function dismissWelcomeAndRender() {
+          pilotWelcomeDismissed = true;
+          if (elWelcomeModal) elWelcomeModal.hidden = true;
+          document.documentElement.style.overflow = "";
+          render();
+        }
+
+        function openWelcomeModal() {
+          if (!elWelcomeModal) return;
+          elWelcomeModal.hidden = false;
+          document.documentElement.style.overflow = "hidden";
+        }
+
+        function openInstallModal() {
+          if (!elInstallModal) return;
+          elInstallModal.hidden = false;
+          document.documentElement.style.overflow = "hidden";
+        }
+
+        function closeInstallModal() {
+          if (!elInstallModal) return;
+          elInstallModal.hidden = true;
+          var w = elWelcomeModal;
+          if (!w || w.hidden) {
+            document.documentElement.style.overflow = "";
+          }
+        }
+
+        var elPilotContinue = document.getElementById("pilot-continue");
+        var elPilotSkip = document.getElementById("pilot-skip");
+        if (elPilotContinue) elPilotContinue.addEventListener("click", dismissWelcomeAndRender);
+        if (elPilotSkip) elPilotSkip.addEventListener("click", dismissWelcomeAndRender);
+        if (elWelcomeBackdrop) elWelcomeBackdrop.addEventListener("click", dismissWelcomeAndRender);
+
+        if (btnInstallApp) btnInstallApp.addEventListener("click", openInstallModal);
+        if (elInstallClose) elInstallClose.addEventListener("click", closeInstallModal);
+        if (elInstallBackdrop) elInstallBackdrop.addEventListener("click", closeInstallModal);
+
+        if (elWelcomeModal && !pilotWelcomeDismissed) {
+          openWelcomeModal();
+        } else {
+          render();
+        }
+      })();
+    </script>
+  </body>
+</html>
