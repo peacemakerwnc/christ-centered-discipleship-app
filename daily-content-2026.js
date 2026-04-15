@@ -696,7 +696,7 @@
         prayer:
           "Father, you sent your Son in the fullness of time to make slaves into heirs.\nI begin years as if adoption were my achievement.\nLet the Spirit\u2019s cry drown my anxious planning this morning.\nTeach my household the sound of \u201cAbba\u201d before it learns my stress.\nI live as your child today or I live a lie. Amen.",
         journalPrompt:
-          "Where did Galatians 4:4\u20137\u2014fullness of time, Son, Spirit, Abba\u2014show up in what I said or did today?\n\nWhere did I act like a slave to work, reputation, or fear instead of an heir\u2014and how do I bring that to God tonight?",
+          "Where did Galatians 4:4\u20137\u2014fullness of time, Son, Spirit, Abba\u2014appear in what I said or did today?\n\nWhere did I act like a slave to work, reputation, or fear instead of an heir\u2014and how do I bring that to God tonight?",
       },
       "01-02": {
         scripturePrimaryRef: "Genesis 12:1-3",
@@ -705,7 +705,7 @@
         reflection:
           "God\u2019s first word to Abram is a command to leave\u2014security, clan, and story\u2014for a land shown only by trust. The promise is universal blessing routed through one man\u2019s obedience, which is how Israel and finally Christ will save the world. You cannot claim faith in the God of Abraham while clinging to every familiar sin that keeps your family small.",
         fatherNote:
-          "Abram had to leave his father\u2019s house; you must leave at least one habit\u2014rage, pornography, sarcasm as default\u2014that trains your children in fear. Name it to your wife tonight without defending yourself, then ask for one practical guardrail for the week.",
+          "Abram had to leave his father\u2019s house; you must leave at least one habit\u2014rage, pornography, sarcasm as default\u2014that trains your children in fear. Name it to your wife tonight without defending yourself, then ask together for one modest rule of life for the week.",
         challengeType: "conversation",
         challenge:
           "At supper, map on paper one \u201ccountry, kindred, and father\u2019s house\u201d comfort you refuse to leave (money, phone, old grudge) and burn the slip after praying Genesis 12:1 aloud with your wife.",
@@ -759,7 +759,7 @@
         reflection:
           "Success for Joshua is not stock options; it is fidelity to the torah spoken day and night until the body obeys. Courage is commanded\u2014twice\u2014because fear is the default when the land still has giants. Your family does not need a nervous captain calculating odds; it needs a man who believes \u201cwith you wherever you go\u201d includes the hallway outside your teenager\u2019s door.",
         fatherNote:
-          "Meditate does not mean scroll; it means mutter the Word until it orders your calendar. Choose one twenty-minute block this week where the phone stays off and Scripture is open on the kitchen counter while your children watch.",
+          "Meditate does not mean idle browsing; it means mutter the Word until it orders your calendar. Choose one twenty-minute block this week where the phone stays off and Scripture is open on the kitchen counter while your children watch.",
         challengeType: "study",
         challenge:
           "Open Deuteronomy or Joshua at random tonight, read eight verses aloud to your household, and end with Joshua 1:9 without adding your commentary.",
@@ -768,14 +768,14 @@
         prayer:
           "Lord, you commanded courage because you knew I would be afraid.\nI substitute bravado for meditation and call it strength.\nLet your law be in my mouth today until my hands obey.\nGo with me into the conversation I dread at work.\nI act on your word or I abandon my post. Amen.",
         journalPrompt:
-          "Where did Joshua 1\u2019s coupling of meditation and courageous action show up today?\n\nWhere did fear or distraction pull me off the law\u2019s path\u2014and how do I bring that to God?",
+          "Where did Joshua 1\u2019s coupling of meditation and courageous action appear in my day?\n\nWhere did fear or distraction pull me off the law\u2019s path\u2014and how do I bring that to God?",
       },
       "01-06": {
         scripturePrimaryRef: "Matthew 2:10-11",
         scripturePrimaryText:
           "When they saw that the star had stopped, they were overwhelmed with joy. On entering the house, they saw the child with Mary his mother; and they knelt down and paid him homage. Then, opening their treasure chests, they offered him gifts of gold, frankincense, and myrrh.",
         reflection:
-          "The magi\u2019s joy peaks not in the journey but in the house\u2014when the star stops above a child who looks like nothing royalty promised. Homage is bodily; gifts are costly; the scene refuses every reduction of Jesus to an idea. If your Christianity never costs gold\u2014time, money, reputation\u2014you are still camped in theory east of Bethlehem.",
+          "The magi\u2019s joy peaks not along the road alone but in the house\u2014when the star stops above a child who looks like nothing royalty promised. Homage is bodily; gifts are costly; the scene refuses every reduction of Jesus to an idea. If your Christianity never costs gold\u2014time, money, reputation\u2014you are still camped in theory east of Bethlehem.",
         fatherNote:
           "Kneeling is what bodies do before kings; show your children once today\u2014at home after Mass or before a crucifix\u2014that Jesus is not your peer. Let them see your knees touch the floor before they hear another lecture about reverence.",
         challengeType: "prayer",
@@ -982,7 +982,7 @@
         leastOfThese:
           "Pack lunches for men at a downtown shelter kitchen line; pray Jeremiah 29:11 over the steam table without being asked to speak.",
         prayer:
-          "Lord, your plans included Babylon\u2019s wait.\nI want hope without exile.\nHear me when I call; I seek you with whole heart today.\nGive my children future you design, not Instagram.\nI take your welfare on your terms. Amen.",
+          "Lord, your plans included Babylon\u2019s wait.\nI want hope without exile.\nHear me when I call; I seek you with whole heart today.\nGive my children future you design, not the world\u2019s vanity.\nI take your welfare on your terms. Amen.",
         journalPrompt:
           "Where did Jeremiah 29:11\u201313\u2014plans, hope, seeking\u2014frame patience today?\n\nWhere did I demand rescue without seeking God wholeheartedly\u2014and how do I confess that?",
       },
@@ -991,7 +991,7 @@
         scripturePrimaryText:
           "Blessed be the God and Father of our Lord Jesus Christ! By his great mercy he has given us a new birth into a living hope through the resurrection of Jesus Christ from the dead, and into an inheritance that is imperishable, undefiled, and unfading, kept in heaven for you, who are being protected by the power of God through faith for a salvation ready to be revealed in the last time.",
         reflection:
-          "New birth is event, not mood\u2014mercy regenerates so hope lives because the tomb is empty. The inheritance is guarded in heaven while you are guarded on earth by power that works through faith, not adrenaline. If your fatherhood is built on perishable 401(k)s and fading reputations, you are still trading birthright for stew.",
+          "New birth is event, not mood\u2014mercy regenerates so hope lives because the tomb is empty. The inheritance is guarded in heaven while you are guarded on earth by power that works through faith, not restless striving. If your fatherhood is built on perishable wealth and fading reputations, you are still trading birthright for stew.",
         fatherNote:
           "Bless God aloud at dinner\u2014Peter\u2019s opening\u2014before anyone complains about Monday. Let your children hear doxology from your mouth, not only requests.",
         challengeType: "service",
@@ -1207,7 +1207,7 @@
         scripturePrimaryText:
           "For everything there is a season, and a time for every matter under heaven: a time to be born, and a time to die; a time to plant, and a time to pluck up what is planted; a time to kill, and a time to heal; a time to break down, and a time to build up; a time to weep, and a time to laugh; a time to mourn, and a time to dance;",
         reflection:
-          "Qoheleth names seasons under heaven\u2014not fatalism but recognition that God\u2019s clock has more hands than your planner. Contraries follow in pairs because life is tension, not straight line. Fighting the wrong season\u2014laughing when your child mourns, working when God says pluck\u2014is rebellion dressed as productivity.",
+          "Qoheleth names seasons under heaven\u2014not fatalism but recognition that God\u2019s clock has more hands than your planner. Contraries follow in pairs because life is tension, not straight line. Fighting the wrong season\u2014laughing when your child mourns, working when God says pluck\u2014is rebellion dressed as urgent industry.",
         fatherNote:
           "Ask each child which season they feel they are in\u2014planting, weeping, building\u2014and do not correct their answer tonight. Fatherhood includes honoring their time, not only yours.",
         challengeType: "study",
@@ -1284,7 +1284,7 @@
           "Tonight, before sleep, pray aloud with your wife one sentence of thanks for your marriage as God's answer to solitude—not as a trophy. If you are unmarried or widowed, pray the same with Christ for the people entrusted to you.",
         challengeType: "sacrifice",
         challenge:
-          "Skip one pleasure you usually default to after the kids are down (show, social scroll, drink) and spend that quarter-hour in quiet thanks for your spouse or vocation.",
+          "Skip one pleasure you usually default to after the kids are down (show, empty distraction on a screen, drink) and spend that quarter-hour in quiet thanks for your spouse or vocation.",
         leastOfThese:
           "Drop off diapers at a pregnancy center without a social post, praying Tobiah's line about mercy on the way home.",
         prayer:
@@ -1304,9 +1304,9 @@
         challenge:
           "Send one email at work that repairs an injustice you contributed to—late payment, sharp tone, unpaid hour—before sunset, no self-congratulation.",
         leastOfThese:
-          "Ask your pastor whom to help stack chairs after the fish fry; show up ten minutes early without being asked.",
+          "Ask your pastor whom to help stack chairs after the fish fry; arrive ten minutes early without being asked.",
         prayer:
-          "Lord, John cried in the desert while I curate reputation.\nLet my repentance bear fruit my children can taste.\nRescue me from brood-of-vipers politeness without justice.\nThe kingdom is at hand in dishes, payroll, and apology.\nI turn from wrath's escape toward your coming reign.\nAmen.",
+          "Lord, John cried in the desert while I fret over reputation.\nLet my repentance bear fruit my children can taste.\nRescue me from Pharisaic politeness without justice.\nThe kingdom is at hand in dishes, payroll, and apology.\nI turn from wrath's escape toward your coming reign.\nAmen.",
         journalPrompt:
           "Where did Matthew 3:1–2, 7–8—desert, fruit, wrath—call out performance without justice in me?\n\nWhat concrete repair will I make tomorrow that only God and the injured party will notice?",
       },
@@ -1423,7 +1423,7 @@
         scripturePrimaryText:
           "The prayer of faith will save the sick, and the Lord will raise them up; and anyone who has committed sins will be forgiven. Therefore confess your sins to one another, and pray for one another, so that you may be healed. The prayer of the righteous is powerful and effective.",
         reflection:
-          "James yokes bodily frailty and moral fracture: healing runs through honest confession, not through curated strength. The righteous man's prayer avails because it is Christ's righteousness speaking, not because the pray-er is spotless. Isolation is the enemy of conversion; secrecy keeps the soul feverish.",
+          "James yokes bodily frailty and moral fracture: healing runs through honest confession, not through the strength I perform for others. The righteous man's prayer avails because it is Christ's righteousness speaking, not because the pray-er is spotless. Isolation is the enemy of conversion; secrecy keeps the soul feverish.",
         fatherNote:
           "Schedule or attend confession this week; tell your wife the time so your kids see sacramental honesty as normal male strength.",
         challengeType: "conversation",
@@ -1459,7 +1459,7 @@
         scripturePrimaryText:
           "For thus said the Lord GOD, the Holy One of Israel: In returning and rest you shall be saved; in quietness and in trust shall be your strength. But you refused and said, \"No! We will flee upon horses\"— therefore you shall flee; and, \"We will ride upon swift steeds\"— therefore your pursuers shall be swift.",
         reflection:
-          "Salvation arrives as return and rest—not as another sprint on the horses of adrenaline and control. Quiet trust is strength because it leans on God's governance instead of your panic scheduling. Refusal sounds like adult responsibility; in Isaiah it is covenant rebellion dressed as productivity.",
+          "Salvation arrives as return and rest—not as another sprint on the horses of restless urgency and control. Quiet trust is strength because it leans on God's governance instead of your anxious busyness. Refusal sounds like adult responsibility; in Isaiah it is covenant rebellion dressed as prudent industry.",
         fatherNote:
           "Block thirty minutes this weekend labeled 'return and rest'—walk without podcast, phone left home—and tell your family you are practicing Isaiah 30:15.",
         challengeType: "sacrifice",
@@ -1468,9 +1468,9 @@
         leastOfThese:
           "Sit with a panhandler five minutes; listen to his name and story without fixing, trusting God more than your timetable.",
         prayer:
-          "Lord, I flee on horses named hustle and image.\nIn returning and rest, save this household.\nQuietness is strength; noise is my drug.\nI refuse the steed; I accept your pace.\nHoly One of Israel, be my strength today.\nAmen.",
+          "Lord, I flee on horses named restlessness and vanity.\nIn returning and rest, save this household.\nQuietness is strength; noise is my false refuge.\nI refuse the steed; I accept your pace.\nHoly One of Israel, be my strength today.\nAmen.",
         journalPrompt:
-          "Where did Isaiah 30:15—return, rest, quiet trust—condemn my 'necessary' hurry?\n\nWhat pursuit will I slow so God can be strength instead of my adrenaline?",
+          "Where did Isaiah 30:15—return, rest, quiet trust—condemn my 'necessary' hurry?\n\nWhat pursuit will I slow so God can be strength instead of my restless hurry?",
       },
       "02-14": {
         scripturePrimaryRef: "Psalm 32:1-5",
@@ -1569,14 +1569,14 @@
         reflection:
           "The Pharisee's prayer is self-congratulation with God cc'd; the tax collector's is naked dependence. Justification flows toward the man who names sin without comparison shopping. Exaltation in God's kingdom arrives through humility that feels like defeat to the ego.",
         fatherNote:
-          "Pray the tax collector's prayer aloud with your family tonight; add no resume bullet points afterward.",
+          "Pray the tax collector's prayer aloud with your family tonight; add no rehearsed virtues afterward.",
         challengeType: "study",
         challenge:
           "Compliment one man at work in front of others for a virtue you genuinely admire—no backhanded contrast.",
         leastOfThese:
           "Serve dinner at a shelter; let someone else thank God publicly while you wash dishes unseen.",
         prayer:
-          "Lord, I thank you I am not like those weak men—heal that lie.\nMercy on me, a sinner, beats my curated resume.\nHumble me until justification sounds like relief.\nExaltation is yours to give, not mine to stage.\nI go down justified like the tax collector.\nAmen.",
+          "Lord, I thank you I am not like those weak men—heal that lie.\nMercy on me, a sinner, beats my rehearsed account of myself.\nHumble me until justification sounds like relief.\nExaltation is yours to give, not mine to stage.\nI go down justified like the tax collector.\nAmen.",
         journalPrompt:
           "Where did Luke 18:10–14—Pharisee, tax collector, justified—mirror my prayer tone today?\n\nWhen this week will I pray without comparison or self-exaltation?",
       },
@@ -1684,7 +1684,7 @@
         leastOfThese:
           "Thank a prophet in your parish—lector, catechist—by name after Mass for a line that pierced you.",
         prayer:
-          "Lord, I quench the Spirit with sarcasm and scroll.\nRejoice in you when the circumstance stings.\nThanks in all things—train my tongue tonight.\nTest voices; cling to your good.\nFrom every evil form, deliver us.\nAmen.",
+          "Lord, I quench the Spirit with sarcasm and idle distraction.\nRejoice in you when the circumstance stings.\nThanks in all things—train my tongue tonight.\nTest voices; cling to your good.\nFrom every evil form, deliver us.\nAmen.",
         journalPrompt:
           "Where did 1 Thessalonians 5:16–22—rejoice, pray, thanks—clash with my reflex to quench the Spirit?\n\nWhat voice have I despised that I will test and honor this week?",
       },
@@ -1964,7 +1964,7 @@
         scripture:
           "Jer 31:31–34; Heb 5:7–9; Jn 12:20–33 — Summary: A new covenant is written on hearts; the Son learns obedience through suffering; a grain of wheat dies to bear much fruit.",
         reflection:
-          "The Fifth Sunday of Lent deepens the journey toward Jerusalem. Christ’s “hour” draws near; your small deaths to self—offered in love—can bear fruit you cannot yet see.",
+          "The Fifth Sunday of Lent deepens the pilgrimage toward Jerusalem. Christ’s “hour” draws near; your small deaths to self—offered in love—can bear fruit you cannot yet see.",
         prayer:
           "Lord Jesus, when I am troubled, speak your Father’s name over my fear. Draw me to serve as you served. Amen.",
         challenge: "Identify one comfort you can surrender today (food, opinion, control) and offer it explicitly for someone you find hard to love.",
@@ -2169,7 +2169,7 @@
         reflection:
           "The risen Lord does not ridicule Thomas; he places his wounds within reach and turns a demand for evidence into the Church\u2019s highest creedal cry: \u201cMy Lord and my God.\u201d That is not sentimental comfort\u2014it is the revelation that God\u2019s life is mediated through the crucified body, not through your private theories. The question pressed on you today is whether you will bring your doubt to those wounds or keep feeding it in the dark.",
         fatherNote:
-          "Your sons and daughters will not learn faith from your certainty alone; they learn from watching you take your skepticism and fear to Christ crucified and risen, not to the internet. If you mock doubt in them while you entertain it in yourself, you contradict this Gospel.",
+          "Your sons and daughters will not learn faith from your certainty alone; they learn from watching you take your skepticism and fear to Christ crucified and risen, not to the world\u2019s restless voices. If you mock doubt in them while you entertain it in yourself, you contradict this Gospel.",
         challengeType: "sacrifice",
         challenge:
           "Before your crucifix tonight, say aloud one doubt you have handed only to yourself, then pray slowly one decade for your child who questions the faith at the kitchen table.",
@@ -2221,7 +2221,7 @@
         scripturePrimaryText:
           "After these things Jesus showed himself again to the disciples by the Sea of Tiberias; and he showed himself in this way. Gathered there together were Simon Peter, Thomas called the Twin, Nathanael of Cana in Galilee, the sons of Zebedee, and two others of his disciples. Simon Peter said to them, \"I am going fishing.\" They said to him, \"We will go with you.\" They went out and got into the boat, but that night they caught nothing. Just after daybreak, Jesus stood on the beach; but the disciples did not know that it was Jesus. Jesus said to them, \"Children, you have no fish, have you?\" They answered him, \"No.\" He said to them, \"Cast the net to the right side of the boat, and you will find some.\" So they cast it, and now they were not able to haul it in because there were so many fish. That disciple whom Jesus loved said to Peter, \"It is the Lord!\" When Simon Peter heard that it was the Lord, he put on some clothes, for he was naked, and jumped into the sea. But the other disciples came in the boat, dragging the net full of fish, for they were not far from the land, only about a hundred yards off. When they had gone ashore, they saw a charcoal fire there, with fish on it, and bread. Jesus said to them, \"Bring some of the fish that you have just caught.\" So Simon Peter went aboard and hauled the net ashore, full of large fish, a hundred fifty-three of them; and though there were so many, the net was not torn. Jesus said to them, \"Come and have breakfast.\" Now none of the disciples dared to ask him, \"Who are you?\" because they knew it was the Lord. Jesus came and took the bread and gave it to them, and did the same with the fish. This was now the third time that Jesus appeared to the disciples after he was raised from the dead.",
         reflection:
-          "A night of empty nets ends not with technique but with obedience to a word you did not invent: cast the net where he says. The abundance that follows is not reward for hustle; it is what happens when risen life commands the work. If you keep measuring your fatherhood by productivity charts, you will miss the charcoal fire and the breakfast he already prepared.",
+          "A night of empty nets ends not with technique but with obedience to a word you did not invent: cast the net where he says. The abundance that follows is not payment for your striving; it is the fruit of risen life commanding the work. If you measure fatherhood only by output and reputation, you will miss the charcoal fire and the breakfast he already prepared.",
         fatherNote:
           "Lead Saturday breakfast without phones, read this aloud, and admit one place you \u201cfished\u201d without listening to Christ or your wife. Your children need to see failure met by his word, not by your sulking or your doubling down on control.",
         challengeType: "conversation",
@@ -2275,7 +2275,7 @@
         scripturePrimaryText:
           "And Jesus came and said to them, \"All authority in heaven and on earth has been given to me. Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, and teaching them to observe everything that I have commanded you. And remember, I am with you always, to the end of the age.\"",
         reflection:
-          "The Risen One speaks first in the language of authority\u2014all of it is his\u2014and then sends disciples to baptize and teach obedience, not to gather likes. The guardrail for that impossible mission is his final word: I am with you. If your Christianity is private opinion without commandment and community, you are not carrying this commission.",
+          "The risen Lord speaks with the authority that belongs to him alone and sends his disciples not to offer private spiritual insights, but to draw the nations into the life of the Trinity through baptism and obedient love. This mission would crush us were it not grounded in his final promise: 'I am with you always.' Christianity, therefore, is never a private spirituality; it is life in Christ, within his Church, under the summons of his command and the shelter of his presence.",
         fatherNote:
           "Explain one Gospel-shaped house rule to your children this week\u2014Sunday Mass, honesty about pornography, forgiveness before sleep\u2014with the \u201cwhy\u201d tied to Christ\u2019s commands, not to your mood. If you never connect discipleship to obedience, they will think faith is a feeling you manage.",
         challengeType: "study",
@@ -2313,7 +2313,7 @@
         reflection:
           "Paul is not inviting you to ignore groceries and diapers; he is telling you where your real life is anchored now\u2014hidden with the ascended Christ. The mind that stays glued to the scoreboard of this age is a mind that has not understood Easter. You will be revealed with him in glory; the only question is whether today\u2019s choices look like someone who believes that.",
         fatherNote:
-          "Lead a five-minute examen at the dinner table: name one thing from today that mattered for eternity and one thing that was only noise. If you never teach your children to weigh time by glory, they will weigh it by adrenaline and appetite alone.",
+          "Lead a five-minute examen at the dinner table: name one thing from today that mattered for eternity and one thing that was only noise. If you never teach your children to weigh time by glory, they will weigh it by restlessness and appetite alone.",
         challengeType: "conversation",
         challenge:
           "Delete one app that trains covetousness tonight and write Colossians 3:2 on an index card taped to your work monitor before you log in tomorrow.",
@@ -2365,12 +2365,12 @@
         scripturePrimaryText:
           "Peace I leave with you; my peace I give to you. I do not give to you as the world gives. Do not let your hearts be troubled, and do not let them be afraid.",
         reflection:
-          "Christ\u2019s peace is not a sedative; it is his own presence left as inheritance, and it is entirely unlike the world\u2019s bargain of peace through control. He commands the heart not to be troubled\u2014not because trouble is unreal, but because he is greater. If you still trade sleep for scrolling, you are not receiving what he leaves; you are self-medicating.",
+          "Christ\u2019s peace is not a sedative; it is his own presence left as inheritance, and it is entirely unlike the world\u2019s bargain of peace through control. He commands the heart not to be troubled\u2014not because trouble is unreal, but because he is greater. If you still trade sleep for empty distraction, you are not receiving what he leaves; you are self-medicating.",
         fatherNote:
           "Turn off news and sports thirty minutes before bed tonight, read John 14:27 to whoever is in the living room, and pray one Our Father slowly together before anyone opens a screen again.",
         challengeType: "study",
         challenge:
-          "Skip one unnecessary purchase today, put the cash in an envelope labeled \u201cpeace not adrenaline,\u201d and give it to your pastor for the poor after Mass this weekend.",
+          "Skip one unnecessary purchase today, put the cash in an envelope labeled \u201cpeace, not restlessness,\u201d and give it to your pastor for the poor after Mass this weekend.",
         leastOfThese:
           "Sit beside one anxious stranger in a clinic waiting room without offering advice\u2014only silent company and, if fitting, John 14:27 written on a card.",
         prayer:
@@ -2392,7 +2392,7 @@
         leastOfThese:
           "Mulch or weed one parish garden bed beside a teenager while praying John 15:5 quietly for lasting fruit in their vocation.",
         prayer:
-          "True Vine, the Father prunes what steals life from me.\nI pretend I can bear fruit by hustle and image.\nKeep me in you; let sap be prayer, not adrenaline.\nLet my children see rest, not performance.\nI abide or I wither\u2014no third option. Amen.",
+          "True Vine, the Father prunes what steals life from me.\nI pretend I can bear fruit by striving and vanity.\nKeep me in you; let sap be prayer, not nervous striving.\nLet my children see rest, not performance.\nI abide or I wither\u2014no third option. Amen.",
         journalPrompt:
           "Where did I encounter this Scripture lived out today\u2014in myself, my family, or a stranger?\n\nWhere did I resist, avoid, or fall short of it\u2014and how do I bring that honestly before God tonight?",
       },
@@ -2599,12 +2599,12 @@
         scripturePrimaryText:
           "But in fact Christ has been raised from the dead, the first fruits of those who have died. For since death came through a human being, the resurrection of the dead has also come through a human being; for as all die in Adam, so all will be made alive in Christ.",
         reflection:
-          "Paul\u2019s logic is blunt: the whole human story forks in a tomb\u2014Adam\u2019s solidarity in death, Christ\u2019s solidarity in risen life. \u201cFirst fruits\u201d means the harvest of the world has already begun; your cynicism about conversion is a vote against the field itself. If you father as though entropy wins, you contradict the very headline you claim to believe on Sundays.",
+          "Paul\u2019s logic is blunt: the whole human story forks in a tomb\u2014Adam\u2019s solidarity in death, Christ\u2019s solidarity in risen life. \u201cFirst fruits\u201d means the harvest of the world has already begun; your cynicism about conversion is a vote against the field itself. If you father as though entropy wins, you contradict the very Gospel you claim to believe on Sundays.",
         fatherNote:
-          "Tell your children one story of a person whose life changed because Christ is risen, not because of a self-help book. End by asking which fear about death still rattles them, and pray 1 Corinthians 15:22 together.",
+          "Tell your children one story of a person whose life changed because Christ is risen, not because of a merely human program of self-improvement. End by asking which fear about death still rattles them, and pray 1 Corinthians 15:22 together.",
         challengeType: "sacrifice",
         challenge:
-          "Delete one feed or subscription that trains you to treat people as hopeless; replace that block with reading 1 Corinthians 15:20-22 slowly before bed.",
+          "Remove one habitual news source or subscription that trains you to treat people as hopeless; replace that time with reading 1 Corinthians 15:20-22 slowly before bed.",
         leastOfThese:
           "Bring flowers to a cemetery plot of someone poor and pray aloud \u201cChrist the first fruits\u201d even if no one hears but God.",
         prayer:
@@ -2716,7 +2716,7 @@
         leastOfThese:
           "Sponsor a refugee family\u2019s English class materials; text the coordinator \u201cJohn 10:10 for your volunteers.\u201d",
         prayer:
-          "Good Shepherd, the thief still steals hours and names.\nI confuse abundance with adrenaline.\nSpeak life until my schedule sounds like discipleship.\nGuard my children\u2019s ears from destructive voices.\nI want your abundance, not survival. Amen.",
+          "Good Shepherd, the thief still steals hours and names.\nI confuse abundance with restless striving.\nSpeak life until my schedule sounds like discipleship.\nGuard my children\u2019s ears from destructive voices.\nI want your abundance, not survival. Amen.",
         journalPrompt:
           "Where did Christ\u2019s abundant life appear\u2014in myself, my family, or a stranger today?\n\nWhere did I cooperate with what steals and destroys\u2014and how do I bring that honestly before God tonight?",
       },
@@ -2835,10 +2835,10 @@
         reflection:
           "Christ honors human limits\u2014some truth waits until the Spirit can carry it. The Spirit never freelances; he speaks what he hears, glorifying the Son and drawing from the Father\u2019s fullness. If you dump every anxiety on your children at once \u201cfor honesty,\u201d you are not imitating Christ\u2019s pedagogy.",
         fatherNote:
-          "Ask each child what truth feels too heavy right now and promise to revisit it after Pentecost with prayer first. Tell your spouse one area where you need the Spirit\u2019s guidance before your own hot take.",
+          "Ask each child what truth feels too heavy right now and promise to revisit it after Pentecost with prayer first. Tell your spouse one area where you need the Spirit\u2019s guidance before your own hasty judgment.",
         challengeType: "conversation",
         challenge:
-          "Read one full chapter of the Catechism or one papal encyclical paragraph slowly tonight instead of scrolling; note one sentence the Spirit highlights.",
+          "Read one full chapter of the Catechism or one papal encyclical paragraph slowly tonight instead of idle distraction; note one sentence the Spirit highlights.",
         leastOfThese:
           "Buy a Bible or YouCat for a graduate with John 16:13 written on the title page.",
         prayer:
@@ -2925,7 +2925,7 @@
         reflection:
           "Christ bids the thirsty come and drink\u2014rivers will flow from within, not mere relief for individuals. The Spirit\u2019s gift waits on Jesus\u2019 glorification; you live on the far side of that pouring. If your children only see you hydrate with distraction, they will confuse thirst with boredom.",
         fatherNote:
-          "When restlessness hits tonight, gather the family, pray \u201cJesus, we thirst\u201d aloud once, and sit sixty seconds in silence before screens return. Tell your wife one thirst in your marriage you bring to Christ first this week, not to a podcast.",
+          "When restlessness hits tonight, gather the family, pray \u201cJesus, we thirst\u201d aloud once, and sit sixty seconds in silence before screens return. Tell your wife one thirst in your marriage you bring to Christ first this week, not first to every passing voice.",
         challengeType: "conversation",
         challenge:
           "Fast from alcohol or excess caffeine tomorrow; each craving becomes one slow sip of water offered for the Spirit\u2019s rivers.",
@@ -3120,7 +3120,7 @@
         challenge: "Silence non-essential notifications for one hour; spend ten minutes in Scripture or silent prayer.",
         challengeType: "sacrifice",
         fatherNote:
-          "Advent fails if it is only your wife managing calendars while you scroll. Pick one evening this week to kill the noise first so they hear peace in your voice.",
+          "Advent fails if it is only your wife managing calendars while you linger on a screen. Pick one evening this week to kill the noise first so they hear peace in your voice.",
         leastOfThese:
           "Buy gift cards for gas or groceries and give them to your parish secretary for a family they know is choosing between bills and Christmas.",
         journalPrompt:
@@ -7029,7 +7029,7 @@
       var fatherParts = [
         "As a father, " +
           ref +
-          " reads your household: the same union with Christ you seek in quiet must show up when your children test you. If the text is true, your voice at the table cannot contradict it for long.",
+          " reads your household: the same union with Christ you seek in quiet must prove true when your children test you. If the text is true, your voice at the table cannot contradict it for long.",
         "Your sons and daughters learn what those opening words mean by watching you. Let " +
           ref +
           " shape your patience before your speeches\u2014prayer before performance.",
@@ -7330,7 +7330,7 @@
         "Notice the person most easily overlooked in your day. Greet them by name. Let them know they are seen.",
         "Acts 2:45 says they sold possessions and gave to anyone in need. Give something away today that you actually value.",
         "Call or visit someone who is lonely. The early Church gathered daily — bring that spirit to one person today.",
-        "Cook, bake, or prepare food for a family or neighbor who is stretched thin—show up with bread, not advice.",
+        "Cook, bake, or prepare food for a family or neighbor who is stretched thin—bring bread in person, not advice.",
         "Offer to pray with someone out loud who is afraid — at work, at home, or in line — and mean every word.",
         "Defend the dignity of one person others dismiss today; let your voice mirror the Advocate Christ sent.",
         "Leave an anonymous gift where a parent will find it — diapers, gas card, or cash — for the sake of the risen Lord.",
@@ -7349,7 +7349,7 @@
         "Teach one child how to serve: clear plates together for someone outside your household.",
         "Drive someone to an appointment who would otherwise take three buses to get there.",
         "Bring cold water or hot coffee to outdoor workers you pass — delivery crews, roofers, or road crews.",
-        "Tutor or read with a struggling student; ask the school or parish who is waiting for a man to show up.",
+        "Tutor or read with a struggling student; ask the school or parish who is waiting for a man to come forward.",
         "Cover a shift for a coworker who needs to be at a bedside tonight.",
         "Donate quality clothes you still like to a shelter; bless as you fold each piece.",
         "End the day by naming aloud one person you served and one person you still owe Christ tomorrow.",
@@ -7363,7 +7363,7 @@
         "Clear clutter from one space and donate usable goods before Christmas noise drowns the waiting.",
         "Walk your block once slowly; pray by address for each home you pass.",
         "Ask your wife which relationship in your circle feels cold; reach out with a reconciling word today.",
-        "Replace thirty minutes of scrolling with thirty minutes helping a child with homework or chores.",
+        "Replace thirty minutes of mindless screen time with thirty minutes helping a child with homework or chores.",
         "Buy groceries for a family named by your parish; deliver without fanfare.",
         "Visit the cemetery or pray the Eternal Rest for the dead you have neglected this year.",
         "Offer to watch a young mother’s children so she can run one errand alone.",
@@ -7638,7 +7638,7 @@
       "Watchfulness is love that stays awake. Let today’s passage interrupt autopilot so you notice who in your home feels unseen as Christmas noise rises.",
       "Darkness is real; the dawn is surer. Read slowly and ask where despair still narrates your leadership, then hand that story to the coming King.",
       "Preparation includes the poor you would rather forget. Let this Scripture bind your waiting to one concrete act of generosity before the feast.",
-      "The promise of his coming resets time: not your productivity, but his faithfulness. Let Advent discipline your speech toward patience and hope.",
+      "The promise of his coming resets time: not your striving, but his faithfulness. Let Advent discipline your speech toward patience and hope.",
       "Christ’s coming searches every room. Use this text tonight to pray for the humility to prepare your marriage and children to meet mercy, not chaos.",
     ];
 
@@ -7681,7 +7681,7 @@
       { challengeType: "service", challenge: "Perform one generous act before noon—food, money, or time—because Easter sends you to enact the life you proclaim." },
       { challengeType: "study", challenge: "Read today’s passage aloud at home, underline every sign of new life, and commit to one bold obedience before sunset." },
       { challengeType: "prayer", challenge: "Offer a decade of thanksgiving for the empty tomb, then go witness through service to the first neighbor you see in need." },
-      { challengeType: "sacrifice", challenge: "Sacrifice an evening plan to visit or call someone lonely; let resurrection joy be the reason you show up tonight." },
+      { challengeType: "sacrifice", challenge: "Sacrifice an evening plan to visit or call someone lonely; let resurrection joy be the reason you go to them tonight." },
       { challengeType: "service", challenge: "Give something valuable away today—time or money—as a sign that Christ’s life in you cannot be hoarded." },
       { challengeType: "conversation", challenge: "Speak one urgent word of mercy to a coworker who is drowning; let the risen Christ’s compassion sound in your voice." },
       { challengeType: "prayer", challenge: "Begin and end the day with alleluia prayed slowly; carry that joy into one risky act of reconciliation." },
@@ -7699,7 +7699,7 @@
       { challengeType: "prayer", challenge: "Pray slowly through today’s word, asking where you still treat Advent like a deadline instead of hopeful waiting." },
       { challengeType: "service", challenge: "Serve one family named by your parish as you prepare the manger of your heart—expectation shown in mercy." },
       { challengeType: "prayer", challenge: "Spend fifteen minutes in the church or chapel if possible, watching in prayer for the coming Christ to reorder your priorities." },
-      { challengeType: "sacrifice", challenge: "Give up scrolling after 9 p.m. this Advent night; prepare for the Lord’s coming with Scripture and sleep." },
+      { challengeType: "sacrifice", challenge: "Give up idle screen time after 9 p.m. this Advent night; prepare for the Lord’s coming with Scripture and sleep." },
       { challengeType: "prayer", challenge: "Walk your block once in silence, praying Come, Lord Jesus over each home as a discipline of watchful hope." },
       { challengeType: "conversation", challenge: "Ask your wife what she is waiting for God to heal this Advent; listen as preparation for Christ’s coming into that wound." },
       { challengeType: "prayer", challenge: "Pray the O Antiphons slowly, letting expectation crack open one hardened place in your fatherhood." },

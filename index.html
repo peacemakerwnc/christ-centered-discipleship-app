@@ -1251,7 +1251,7 @@
 
       .challenge-action-band {
         background: var(--leather);
-        color: var(--parchment);
+        color: var(--header-fg);
         padding: var(--space-8) 1.25rem;
         margin-left: -1.1rem;
         margin-right: -1.1rem;
@@ -1274,6 +1274,13 @@
         color: var(--header-fg);
       }
 
+      @media (prefers-color-scheme: dark) {
+        html:not(.theme-light) .challenge-action-band {
+          background: var(--leather-mid);
+          color: var(--header-fg);
+        }
+      }
+
       .challenge-action-band .section-label {
         color: rgba(245, 240, 232, 0.75);
         border-bottom-color: rgba(192, 64, 64, 0.55);
@@ -1286,7 +1293,7 @@
         font-size: 0.65rem;
         letter-spacing: 0.18em;
         text-transform: uppercase;
-        color: var(--parchment);
+        color: var(--header-fg);
         background: rgba(139, 26, 26, 0.95);
         padding: 0.35rem 0.75rem;
         border-radius: 999px;
@@ -1295,14 +1302,30 @@
       }
 
       .theme-dark .challenge-type-badge-pill {
-        color: #f5f0e8;
+        color: var(--header-fg);
         background: rgba(192, 64, 64, 0.55);
       }
 
+      @media (prefers-color-scheme: dark) {
+        html:not(.theme-light) .challenge-type-badge-pill {
+          color: var(--header-fg);
+          background: rgba(192, 64, 64, 0.55);
+        }
+      }
+
       .challenge-action-band .body-text {
-        color: inherit;
+        color: var(--header-fg);
         max-width: none;
         font-size: calc(var(--text-base) + 0.05rem);
+      }
+
+      .challenge-action-band .body-text :where(span, strong, em) {
+        color: inherit;
+      }
+
+      .challenge-action-band .body-text a {
+        color: var(--header-fg);
+        text-decoration-color: rgba(245, 240, 232, 0.55);
       }
 
       .least-band {
@@ -1628,7 +1651,15 @@
               <input type="date" id="date-picker" min="2026-01-01" max="2026-12-31" aria-label="Choose a date in 2026" />
             </div>
             <button type="button" class="theme-toggle-foot" id="theme-toggle">Theme: Auto</button>
-            <button type="button" class="footer-pilot-install-link" id="btn-install-app">Install App</button>
+            <button
+              type="button"
+              class="footer-pilot-install-link"
+              id="btn-install-app"
+              aria-haspopup="dialog"
+              aria-controls="pmk-install-modal"
+            >
+              Install App
+            </button>
           </div>
           <div class="footer-prose">
             <p>
@@ -1653,10 +1684,10 @@
           <p class="pilot-lead">Peacemakers is a daily Catholic discipleship companion for fathers.</p>
           <p class="pilot-lead pilot-install-note">For the best experience, install it to your home screen.</p>
           <p class="pilot-platform">
-            <strong>iPhone:</strong> Open in Safari, tap Share, then Add to Home Screen.
+            <strong>iPhone:</strong> Open in Safari → Share → Add to Home Screen.
           </p>
           <p class="pilot-platform">
-            <strong>Android:</strong> Open in Chrome, open the menu, then tap Install app or Add to Home screen.
+            <strong>Android:</strong> Open in Chrome → Menu → Install app / Add to Home screen.
           </p>
           <div class="pmk-welcome-actions">
             <button type="button" class="pmk-pilot-skip" id="pilot-skip">Skip</button>
@@ -1672,10 +1703,10 @@
           <h2 id="install-modal-title">Install Peacemakers</h2>
           <p class="pilot-lead">For the best experience, add Peacemakers to your home screen.</p>
           <p class="pilot-platform">
-            <strong>iPhone:</strong> Open in Safari, tap Share, then tap Add to Home Screen.
+            <strong>iPhone:</strong> Open in Safari → Share → Add to Home Screen.
           </p>
           <p class="pilot-platform">
-            <strong>Android:</strong> Open in Chrome, open the browser menu, then tap Install app or Add to Home screen.
+            <strong>Android:</strong> Open in Chrome → Menu → Install app / Add to Home screen.
           </p>
           <p class="pilot-lead pilot-closing">Once installed, Peacemakers opens like an app from your home screen.</p>
         </div>
